@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://luhuadong.com/trading-journal</id>
+    <title>成为自由人 Blog</title>
+    <updated>2025-01-07T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://luhuadong.com/trading-journal"/>
+    <subtitle>成为自由人 Blog</subtitle>
+    <icon>https://luhuadong.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[2025年1月交易日志]]></title>
+        <id>https://luhuadong.com/trading-journal/202501</id>
+        <link href="https://luhuadong.com/trading-journal/202501"/>
+        <updated>2025-01-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[从2019年初开通证券账户以来，小打小闹地做一些基金和股票投资，2024年赚了一点小钱。然而，2025年元旦之后，连续几个交易日都是跌跌不休，才清晰意识到其实自己的交易策略很乱，选股有较大的投机成分，仓位管理也不合理。于是，萌生了写交易日志的想法，以便更好地记录我的交易操作和在这个过程中的思考。]]></summary>
+        <content type="html"><![CDATA[<p>从2019年初开通证券账户以来，小打小闹地做一些基金和股票投资，2024年赚了一点小钱。然而，2025年元旦之后，连续几个交易日都是跌跌不休，才清晰意识到其实自己的交易策略很乱，选股有较大的投机成分，仓位管理也不合理。于是，萌生了写交易日志的想法，以便更好地记录我的交易操作和在这个过程中的思考。</p>
+<p>目前持仓的股票有30支左右，主要是小米集团、海康威视、阿里巴巴、腾讯控股、美图公司、哔哩哔哩、高鑫零售、百果园集团、玖龙纸业、龙源电力、启迪环境、永辉超市、奥佳华、智光电气、李宁。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2025年1月7日">2025年1月7日<a href="https://luhuadong.com/trading-journal/202501#2025%E5%B9%B41%E6%9C%887%E6%97%A5" class="hash-link" aria-label="2025年1月7日的直接链接" title="2025年1月7日的直接链接">​</a></h2>
+<p>由于美国国防部将包括腾讯控股、宁德时代在内的中国科技巨头添加到 1260H 清单，今天港股大跌，腾讯跌超7%。</p>
+<p>清仓了《顺丰控股》和《赣锋锂业》，分别在 391.0 元和 378.2 元价位买入《腾讯控股》。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2025年1月8日">2025年1月8日<a href="https://luhuadong.com/trading-journal/202501#2025%E5%B9%B41%E6%9C%888%E6%97%A5" class="hash-link" aria-label="2025年1月8日的直接链接" title="2025年1月8日的直接链接">​</a></h2>
+<p>今天港股继续跌，清仓了《李宁》和《海尔智家》，加仓了《龙源电力》《哔哩哔哩》《百果园》《美图公司》《高鑫零售》。</p>]]></content>
+        <author>
+            <name>阿基米东</name>
+            <uri>https://github.com/luhuadong</uri>
+        </author>
+        <category label="交易日志" term="交易日志"/>
+    </entry>
+</feed>

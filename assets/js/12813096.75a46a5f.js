@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[4531],{93040:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"vocal-exercise"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[23116],{44149:s=>{s.exports=JSON.parse('{"tags":[{"label":"\u4ea4\u6613\u65e5\u5fd7","permalink":"/trading-journal/tags/\u4ea4\u6613\u65e5\u5fd7","count":1}]}')}}]);

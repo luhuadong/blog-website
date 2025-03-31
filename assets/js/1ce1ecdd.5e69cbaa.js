@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[94705],{20369:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/trading-journal","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"\u4ea4\u6613\u65e5\u5fd7"}}')}}]);

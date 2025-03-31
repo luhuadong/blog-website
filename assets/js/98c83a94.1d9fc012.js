@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[70222],{1697:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"psychology"}')}}]);

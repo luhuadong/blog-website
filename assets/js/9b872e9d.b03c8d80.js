@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[33093],{83084:s=>{s.exports=JSON.parse('{"blogBasePath":"/trading-journal","blogTitle":"\u4ea4\u6613\u65e5\u5fd7","authorsListPath":"/trading-journal/authors"}')}}]);

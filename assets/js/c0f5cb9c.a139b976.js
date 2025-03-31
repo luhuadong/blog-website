@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[32690],{53673:s=>{s.exports=JSON.parse('{"tags":[{"label":"\u72ec\u7acb\u5f00\u53d1\u8005","permalink":"/indie/tags/\u72ec\u7acb\u5f00\u53d1\u8005","count":2}]}')}}]);

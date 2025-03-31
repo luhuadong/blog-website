@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[25317],{6140:s=>{s.exports=JSON.parse('{"tags":[{"label":"\u4eba\u751f","permalink":"/wisdom/tags/\u4eba\u751f","count":2},{"label":"\u601d\u8003","permalink":"/wisdom/tags/\u601d\u8003","count":2}]}')}}]);

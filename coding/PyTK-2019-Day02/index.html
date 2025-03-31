@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr" class="docs-wrapper plugin-docs plugin-id-coding docs-version-current docs-doc-page docs-doc-id-PyTK-2019-Day02" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.6.3">
+<title data-rh="true">第2天 不同性格的电脑 | 成为自由人</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://luhuadong.com/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://luhuadong.com/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://luhuadong.com/coding/PyTK-2019-Day02"><meta data-rh="true" property="og:locale" content="zh_Hans"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-coding-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-coding-current"><meta data-rh="true" property="og:title" content="第2天 不同性格的电脑 | 成为自由人"><meta data-rh="true" name="description" content="【教孩子学 Python 编程】系列 Day2：了解计算机系统与软件概念"><meta data-rh="true" property="og:description" content="【教孩子学 Python 编程】系列 Day2：了解计算机系统与软件概念"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://luhuadong.com/coding/PyTK-2019-Day02"><link data-rh="true" rel="alternate" href="https://luhuadong.com/coding/PyTK-2019-Day02" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://luhuadong.com/coding/PyTK-2019-Day02" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/journal/rss.xml" title="成为自由人 RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/journal/atom.xml" title="成为自由人 Atom Feed">
+
+
+
+<link rel="alternate" type="application/rss+xml" href="/trading-journal/rss.xml" title="成为自由人 RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/trading-journal/atom.xml" title="成为自由人 Atom Feed">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous">
+<script src="https://hm.baidu.com/hm.js?58f6aab1bcd18448d069fbf8a3310a58" async></script><link rel="stylesheet" href="/assets/css/styles.b32efa59.css">
+<script src="/assets/js/runtime~main.f7b435cf.js" defer="defer"></script>
+<script src="/assets/js/main.4fc76ad4.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="跳到主要内容"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><nav aria-label="主导航" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.png" alt="成为自由人·阿基米东" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/logo.png" alt="成为自由人·阿基米东" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">成为自由人</b></a><a class="navbar__item navbar__link" href="/kb">知识库</a><a class="navbar__item navbar__link" href="/journal">博客</a><a class="navbar__item navbar__link" href="/about">关于</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/luhuadong" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-github-link" aria-label="GitHub repository"></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="切换浅色/暗黑模式（当前为浅色模式）" aria-label="切换浅色/暗黑模式（当前为浅色模式）" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="回到顶部" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="文档侧边栏" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/coding/">教孩子学 Python 编程 🧑‍💻</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/coding/PyTK-2019-Day01">第1天 和电脑做朋友</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/coding/PyTK-2019-Day02">第2天 不同性格的电脑</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/coding/PyTK-2019-Day03">第3天 打倒拦路虎，学会键盘打字</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/coding/PyTK-2019-Day04">第4天 咿呀学语，Python常用英文单词</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/coding/PyTK-2019-Day05">第5天 你的第一个 Python 程序</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/coding/PyTK-2019-Day06">第6天 电脑也会九九乘法口诀</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/coding/PyTK-2019-Day07">第7天 和电脑玩猜数字游戏</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/coding/PyTK-2019-Day08">第8天 还记得大明湖畔的变量和函数吗</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/coding/PyTK-2019-Day09">第9天 老师的点名神器</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/coding/PyTK-2019-Day10">第10天 世界那么大，我想去看看</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/coding/python-run-simple-http-server">Python 临时启动简单的 HTTP 服务器</a></li></ul></nav><button type="button" title="收起侧边栏" aria-label="收起侧边栏" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="页面路径"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="主页面" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">第2天 不同性格的电脑</span><meta itemprop="position" content="1"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">本页总览</button></div><div class="theme-doc-markdown markdown"><header><h1>第2天 不同性格的电脑</h1></header>
+<blockquote>
+<p>【教孩子学 Python 编程】系列 Day2：了解计算机系统与软件概念</p>
+</blockquote>
+<p><img decoding="async" loading="lazy" src="/assets/images/我肥来辣-9e32dae3408199ce3eac7b7cd3777dfc.jpg" width="440" height="330" class="img_ev3q"></p>
+<p>经过一天的相处，你和你的新朋友相处是否融洽？你是否接纳了你的新伙伴？你是否想进一步了解她？</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="操作系统决定了性格">操作系统决定了性格<a href="#操作系统决定了 性格" class="hash-link" aria-label="操作系统决定了性格的直接链接" title="操作系统决定了性格的直接链接">​</a></h2>
+<p>完成第1天的作业之后，你惊讶地发现，不同电脑的显示界面差别很大，操作方式也不太一样，里面安装的软件也不相同。你更喜欢哪个？</p>
+<p><img decoding="async" loading="lazy" src="/assets/images/好看的Linux-Mac-Win-14000fcb33a73e64bcdf23a56a82ed15.jpeg" width="900" height="506" class="img_ev3q"></p>
+<p>小卢老师提供了3台运行着不同操作系统的电脑，分别是 Linux、macOS 和 Windows。它们是当今主流三大计算机操作系统，有着不同的性格：</p>
+<ul>
+<li>windows 经济适用，档次较低;</li>
+<li>macOS 高端大气上档次;</li>
+<li>Linux 是极客专用。</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="windows">Windows<a href="#windows" class="hash-link" aria-label="Windows的直接链接" title="Windows的直接链接">​</a></h3>
+<blockquote>
+<p><strong>绚丽多彩，善解人意，讨人喜欢，经济适用</strong></p>
+</blockquote>
+<p>在我国，Windows 的普及率最高，远远超过 macOS，更别提 Linux 了。Windows 被广泛使用 PC 领域，对软件和中文的支持也很不错，特别是一些大型游戏和专业软件。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="macos">macOS<a href="#macos" class="hash-link" aria-label="macOS的直接链接" title="macOS的直接链接">​</a></h3>
+<blockquote>
+<p><strong>优雅端庄，追求极致，热情浪漫，消费力高</strong></p>
+</blockquote>
+<p>macOS 系统只能运行在苹果公司的电脑，因此使用范围较窄，但也正因如此，macOS 运行流畅，在一些专业领域广泛应用。同时 macOS 和 Linux 是亲戚关系，有相似的编程接口和命令行操作（很快会学到），所以很多 Linux 上的东西也能在 macOS 上使用。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="linux">Linux<a href="#linux" class="hash-link" aria-label="Linux的直接链接" title="Linux的直接链接">​</a></h3>
+<blockquote>
+<p><strong>单纯专注，追求自由，乐于分享，甘于奉献，胸怀天下</strong></p>
+</blockquote>
+<p>Linux 伴随自由运动和黑客的分享精神而崛起，她天生就是多任务、多用户的操作系统，主要应用于服务器和嵌入式领域（比如安卓手机）。Linux 系统支持的硬件很多，并且更新很快，软件兼容性也很好，目前很多生物信息、科学计算、人工智能等软件都是首先支持 Linux 系统的。</p>
+<p><img decoding="async" loading="lazy" src="/assets/images/Linux吉祥物tux-61db0d2dd1f66eaa492a9e287aa16c98.jpeg" width="250" height="300" class="img_ev3q"></p>
+<p>虽然我们的目的是学习 Python 编程，对于初学者来说其实不需要关注操作系统的事情。但毕竟一旦选择了某个操作系统，未来一段日子里将与她朝夕相处，操作系统的性格也会潜移默化地影响到使用者。所以，为了培养 “独立之精神，自由之思想”，我建议使用 Linux 操作系统，后面的学习将会在一个叫 “Ubuntu” 的 Linux 发行版系统上进行。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="启动你的-linux">启动你的 Linux<a href="#启动你的-linux" class="hash-link" aria-label="启动你的 Linux的直接链接" title="启动你的 Linux的直接链接">​</a></h2>
+<p>笔记本电脑已经预装了 Ubuntu，按下电源开关，稍等片刻将进入系统登录界面。现在输入用户密码，按下 Enter 键即可登录（前面我们说过，Linux 是多用户系统，所以你要记住你的用户名和密码哦）。</p>
+<p>进入系统，我们会看到左侧有一个被称为 “Ubuntu Dock” 的面板，在键盘中按下 “Ctrl + Alt + T”，将会打开一个被称为终端（Terminal）的窗口，接下来我们将在这里输入一些命令来和电脑交流。</p>
+<p><img decoding="async" loading="lazy" src="/assets/images/Ubuntu1604-c8fc943caf088f9addba8c7c561cedea.png" width="1920" height="1080" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="操作-linux-命令">操作 Linux 命令<a href="#操作-linux-命令" class="hash-link" aria-label="操作 Linux 命令的直接链接" title="操作 Linux 命令的直接链接">​</a></h2>
+<p>先来熟悉以下十条命令：</p>
+<table><thead><tr><th>命令</th><th>英文解释</th><th>中文解释</th></tr></thead><tbody><tr><td><code>ls</code></td><td>List directory contents</td><td>列出目录的内容（这里的 “目录” 也称为 “文件夹”）</td></tr><tr><td><code>cd</code></td><td>Change directory</td><td>改变工作目录</td></tr><tr><td><code>mkdir</code></td><td>Make directory</td><td>创建一个目录</td></tr><tr><td><code>cp</code></td><td>Copy files or directories</td><td>将指定的文件或目录复制到另一个文件或目录中</td></tr><tr><td><code>mv</code></td><td>Move files or directories</td><td>移动文件或目录的位置，或修改文件或目录的名称</td></tr><tr><td><code>rm</code></td><td>Remove files or directories</td><td>删除一个或多个文件或目录</td></tr><tr><td><code>touch</code></td><td>Create a new file or change its timestamp</td><td>修改文件时间戳，或者新建一个不存在的文件</td></tr><tr><td><code>cat</code></td><td>Concatenate files and print</td><td>文本输出命令，通常是用于查看某个文件的内容</td></tr><tr><td><code>echo</code></td><td>Display a line of text</td><td>字符串输出，可以通过重定向将内容输出到文件</td></tr><tr><td><code>pwd</code></td><td>Print name of working directory</td><td>显示工作目录的路径名称</td></tr></tbody></table>
+<p>现在，我们在前面打开的终端中输入这些命令，在终端中你会看到有一串提示符，就像这样：</p>
+<p><img decoding="async" loading="lazy" src="/assets/images/Linux终端提示符-09a72ae7ee135036caa1db97062bb921.png" width="282" height="81" class="img_ev3q"></p>
+<p>其中，rudy 是 当前登录的用户名称，OptiPlex-7050 是机器的名称，它们之间有一个 @ 符号隔开，接着后面有个冒号，冒号后面有个蓝色的 ~ 符号，表示当前操作的位置是在家目录（也就是 rudy 用户专属的文件夹），最后还有一个 $ 符，它在提醒你 “现在你可以输入命令啦”。大胆地输入命令吧，别忘了最后还要敲回车键（Enter 键）通知电脑你已经输入完毕了！</p>
+<p>OK，接下来我们根据下面的提示完成练习：</p>
+<ol>
+<li>打开一个新的终端；</li>
+<li>输入 <code>pwd</code> 看看你现在在哪里；</li>
+<li>输入 <code>ls</code> 看看当前文件夹里都有什么；</li>
+<li>输入 <code>touch file.txt</code> 创建一个名为 file.txt 的文件，文件通常有个后缀（也就是 txt），文件名和后缀之间用 . 隔开；</li>
+<li>输入 <code>cat file.txt</code> 查看文件内容（我们还没写内容，你当然看不到任何东西）；</li>
+<li>输入 <code>echo &quot;hello&quot; &gt; file.txt</code> 命令，将会在文件中写入 hello 单词；</li>
+<li>再次输入 <code>cat file.txt</code> 看看；</li>
+<li>输入 <code>mkdir test</code> 创建一个叫 test 的文件夹；</li>
+<li>输入 <code>mv file.txt test</code> 将 file.txt 文件移动到 test 目录中；</li>
+<li>输入 <code>cd test</code> 进入 test 目录，你会发现提示符中的 ~ 变成了 ~/test（说明目录切换成功）；</li>
+<li>输入 <code>pwd</code> 看看现在的目录路径；</li>
+<li>输入 <code>ls</code> 看看 file.txt 文件在不在这里面；</li>
+<li>输入 <code>cp file.txt file2.txt</code> 把 file.txt 文件复制一份，并命名为 file2.txt ；</li>
+<li>再次输入 <code>ls</code> 看看 file2.txt 是否存在；</li>
+<li>输入 <code>cat file.txt file2.txt</code> 看看两个文件的内容是否一致；</li>
+<li>输入 <code>rm file.txt</code> 把 file.txt 删掉；</li>
+<li>输入 <code>ls</code> 看看 file.txt 是否真的被删除了；</li>
+<li>输入 <code>cd ..</code> 切换到上一级目录（先记住：<code>.</code>  表示当前目录，<code>..</code> 表示上一级目录）；</li>
+<li>输入 <code>rm -r test</code> 将整个 test 目录删除；</li>
+<li>输入 <code>ls</code> 看看还能不能找到 test 目录。</li>
+</ol>
+<p>不知不觉，你已经掌握了我们前面列出的十条 Linux 命令！给自己一点掌声吧～</p>
+<p><img decoding="async" loading="lazy" src="/assets/images/热烈鼓掌-3f8c79ead0a544ad37fe38aa15ca6a56.gif" width="400" height="400" class="img_ev3q"></p>
+<p>什么？你还没掌握？赶紧多练习几遍！</p>
+<p>操作命令截图</p>
+<p><img decoding="async" loading="lazy" src="/assets/images/Linux常用命令练习-42e71ce40aa543ed6cef913017b8a66e.png" width="435" height="387" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="文本编辑器">文本编辑器<a href="#文本编辑器" class="hash-link" aria-label="文本编辑器的直接链接" title="文本编辑器的直接链接">​</a></h2>
+<p>前面我们用 <code>echo</code> 命令往文件中写入了一个单词 “hello”，那我们想多写点内容怎么办？</p>
+<p>接下来我们会使用一个叫 vim 的编辑器。打开一个新的终端，输入 <code>vim file.txt</code> 命令，意思是使用 vim 工具打开 file.txt 文件，如果这个文件不存在，则创建一个。</p>
+<p><img decoding="async" loading="lazy" src="/assets/images/vim编辑器-68e20a4894fdc4564066285cfb6e4855.png" width="732" height="438" class="img_ev3q"></p>
+<p>但是你随便敲几个字母发现根本没有显示出来！这是因为模式不对，vim 有三种模式，分别是命令模式、编辑模式和末行模式。当你启动 vim 时，初始状态是命令模式，你可以 i、a 或 o 三个字母中的任意一个，即可切换到编辑模式，进入编辑模式之后就可以往文件写东西啦。</p>
+<p>在编辑模式下按下 Esc 键，则切换回命令模式。假如这时候你写完内容想保存，则在命 令模式下按冒号键切换到末行模式，输入 <code>w</code> 回车保存文件，输入 <code>q</code> 则退出 vim，如果你想保存后直接退出，则输入 <code>wq</code>。</p>
+<p><img decoding="async" loading="lazy" src="/assets/images/vim-3bdc1452a29a95dbd297aab26e2afbd1.png" width="634" height="206" class="img_ev3q"></p>
+<p>现在，你只要学会编辑文本、移动光标、保存、退出这几个功能就可以了。</p>
+<p><strong>练习三种模式的主要功能</strong></p>
+<ul>
+<li>命令模式：复制、粘贴、删除、移动光标、查找</li>
+<li>编辑模式：编辑文本</li>
+<li>末行模式：保存、退出、替换</li>
+</ul>
+<p><strong>编辑模式下的一些操作</strong></p>
+<ul>
+<li>用鼠标任意的选中某行，就是已经复制完成了。在容易的地方按下滚轮即粘贴（Linux 的一种特色）</li>
+<li>按 ctrl+n 可以实现单词补全。（单词必须是当前文件中的单词，如果不存在则不能补全）</li>
+</ul>
+<p><strong>命令模式下的一些操作</strong></p>
+<ul>
+<li>向右移动一个单词：w</li>
+<li>向左移动一个单词：b</li>
+<li>向右移动80个字符：80右箭头（数字和方向，可以随意选取）</li>
+<li>快速向左向右移动光标：ctrl + 左右箭头</li>
+<li>移动光标到行首：0</li>
+<li>移动光标到行尾：$</li>
+<li>移动光标到文件最后一行：G</li>
+<li>移动光标到文件第一行：1G（数字可以随意选取）</li>
+<li>复制光标所在行开始的2行：2yy（数字可以随意选取）</li>
+<li>将复制的行粘贴到光标所在行的下面：小写p（小写是下面大写则是上面）</li>
+<li>删除光标所在行开始的3行：3dd（数字可以随意选取）</li>
+<li>删除光标开始到单词结尾：dw</li>
+<li>删除光标开始到行首部分：d0</li>
+<li>删除光标开始到行尾部分：d$</li>
+<li>撤销上一步的操作：u</li>
+<li>重复前一步的操作：ctrl+r</li>
+<li>重复前一步的操作：ctrl+r</li>
+<li>查找root： /root   按n或N向下、向上继续查找（root是文件中的全部单词）</li>
+</ul>
+<p><strong>末行模式（：属于指令的一部分）</strong></p>
+<ul>
+<li>
+<p>存盘指令：w</p>
+</li>
+<li>
+<p>另存指令：w 文件名</p>
+</li>
+<li>
+<p>存盘并退出指令：wq</p>
+</li>
+<li>
+<p>退出指令：q</p>
+</li>
+<li>
+<p>强制退出不存盘指令：q!</p>
+</li>
+<li>
+<p>将光标定位到第3行 指令 :3（数字可以随意选取）</p>
+</li>
+<li>
+<p>将光标所在行的第一个A字母替换为B字母的指令 <!-- -->:s<!-- -->/A/B</p>
+<ul>
+<li>（如果要替换行中的所有的A，则需要加上字母g为：s/A/B/g）</li>
+<li>（如果要替换文件中的所有的A，则需要在加上%s为：%s/A/B/g）</li>
+<li>（如果要替换文件中指定的行数，则需要变为：2，10s/A/B/g（数字可以随意选取））</li>
+<li>（如果要替换文件中指定的行数到最后一行，则需要变为：2，$s/A/B/g（数字可以随意选取））</li>
+</ul>
+</li>
+<li>
+<p>显示出行号的指令：set nu</p>
+</li>
+</ul>
+<p>什么？太难了你要走啦？</p>
+<p><img decoding="async" loading="lazy" src="data:image/gif;base64,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" width="300" height="225" class="img_ev3q"></p>
+<p>好吧，其实除了 vim 这种命令式的编辑器，在 Linux 上我们还可以使用很多图形界面的编辑器，比如 gedit 和 Sublime Text，以及一些办公软件。</p>
+<p>在图形界面中，刚刚我们费劲脑汁去记的命令都不用管了，比如复制、粘贴、编辑、查找、替换、保存、退出等操作都可以在菜单栏中找到，用鼠标点点点就能完成。</p>
+<p><img decoding="async" loading="lazy" alt="gedit 编辑器" src="/assets/images/编辑器gedit-546c238993856cf262f1d1c1aea2566e.png" width="510" height="292" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Sublime Text 编辑器" src="/assets/images/编辑器subl3-eb727812193564062404ce3e8ed88858.png" width="516" height="285" class="img_ev3q"></p>
+<p>对于这些编辑器，常用快捷键有：</p>
+<ul>
+<li>Ctrl + C：复制</li>
+<li>Ctrl + V ：粘贴</li>
+<li>Ctrl + F ：查找</li>
+<li>Ctrl + S：保存</li>
+</ul>
+<p>注意：这些快捷键操作在 Linux 和 Windows 上都可以使用，如果是 macOS，则需要把 Ctrl 键换成 Command 键。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="作业">作业<a href="#作业" class="hash-link" aria-label="作业的直接链接" title="作业的直接链接">​</a></h2>
+<p>（1）给你的电脑安装 Ubuntu 系统。</p>
+<p>（2）反复练习 Linux 命令，直到不看文档也可以完成上面的练习。</p>
+<p>（3）对比 Vim 和图形界面编辑器，找出它们的异同点。</p>
+<p>（4）使用 Microsoft Office 分别新建、编辑、保存 Word、Excel、PowerPoint 文档，同时观察其文件名后缀。</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/coding/PyTK-2019-Day01"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">第1天 和电脑做朋友</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/coding/PyTK-2019-Day03"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">第3天 打倒拦路虎，学会键盘打字</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#操作系统决定了性格" class="table-of-contents__link toc-highlight">操作系统决定了性格</a><ul><li><a href="#windows" class="table-of-contents__link toc-highlight">Windows</a></li><li><a href="#macos" class="table-of-contents__link toc-highlight">macOS</a></li><li><a href="#linux" class="table-of-contents__link toc-highlight">Linux</a></li></ul></li><li><a href="#启动你的-linux" class="table-of-contents__link toc-highlight">启动你的 Linux</a></li><li><a href="#操作-linux-命令" class="table-of-contents__link toc-highlight">操作 Linux 命令</a></li><li><a href="#文本编辑器" class="table-of-contents__link toc-highlight">文本编辑器</a></li><li><a href="#作业" class="table-of-contents__link toc-highlight">作业</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">快速阅读</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/kb">知识库</a></li><li class="footer__item"><a class="footer__link-item" href="/journal">我的博客</a></li><li class="footer__item"><a class="footer__link-item" href="/trading-journal">交易日志</a></li></ul></div><div class="col footer__col"><div class="footer__title">开源社区</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/luhuadong" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://gitee.com/luhuadong" target="_blank" rel="noopener noreferrer" class="footer__link-item">Gitee<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.freecodecamp.org/RudyLo" target="_blank" rel="noopener noreferrer" class="footer__link-item">freeCodeCamp<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">社交媒体</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://blog.csdn.net/lu_embedded" target="_blank" rel="noopener noreferrer" class="footer__link-item">CSDN<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.zhihu.com/people/armstrong2014" target="_blank" rel="noopener noreferrer" class="footer__link-item">知乎<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.xiaohongshu.com/user/profile/600bf37b000000000101c8f6" target="_blank" rel="noopener noreferrer" class="footer__link-item">小红书<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://space.bilibili.com/410684166" target="_blank" rel="noopener noreferrer" class="footer__link-item">哔哩哔哩<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://okjk.co/eSkdno" target="_blank" rel="noopener noreferrer" class="footer__link-item">即刻 App<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">站点信息</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/about">关于我们</a></li><li class="footer__item"><a href="https://luhuadong.com/sitemap.xml" target="_blank" rel="noopener noreferrer" class="footer__link-item">网站地图<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">微信公众号</div><ul class="footer__items clean-list"><li class="footer__item"><img src="/img/wechat-qrcode.jpg" alt="成为自由人 微信公众号" width="150" height="150"></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 luhuadong.com</div></div></div></footer></div>
+</body>
+</html>

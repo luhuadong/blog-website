@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[80298],{77295:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"sports"}')}}]);

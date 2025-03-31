@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[79236],{24898:s=>{s.exports=JSON.parse('{"tags":[{"label":"\u58f0\u97f3\u8bad\u7ec3","permalink":"/vocal-exercise/tags/\u58f0\u97f3\u8bad\u7ec3","count":5}]}')}}]);
