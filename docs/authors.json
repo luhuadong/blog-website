@@ -1,0 +1,24 @@
+{
+    "luhuadong": {
+      "name": "卢华东",
+      "title": "本站站长",
+      "url": "https://luhuadong.com",
+      "image_url": "/img/authors/luhuadong.jpg",
+      "bio": "程序员，技术作者，开源软件作者，环保主义者，素食爱好者，喜欢编码、写作、读书、运动、DIY，热爱大自然，文字是我的自然表达方式。",
+      "copyright": "本站所有文章除特别声明外，均采用 (CC)BY-NC-SA 许可协议。转载请注明出处！"
+    },
+    "zhangsan": {
+      "name": "张三",
+      "title": "技术作者",
+      "image_url": "/img/authors/zhangsan.png",
+      "bio": "张三是一位资深前端工程师，热衷于开源和技术分享。热爱大自然，文字是我的自然表达方式。"
+    },
+    "lisi": {
+      "name": "李四",
+      "title": "后端工程师",
+      "image_url": "/img/authors/lisi.png",
+      "bio": "李四专注于高性能服务器开发。",
+      "copyright": "版权所有 © 2025 李四"
+    }
+  }
+  

@@ -1,0 +1,43 @@
+<svg width="200.000000" height="200.000000" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_2_4_dd" x="38.000000" y="85.000000" width="133.000000" height="97.157410" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="4" dy="6"/>
+			<feGaussianBlur stdDeviation="3.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<filter id="filter_2_5_dd" x="61.000000" y="29.000000" width="87.000000" height="87.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="4" dy="6"/>
+			<feGaussianBlur stdDeviation="3.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<clipPath id="clip2_2">
+			<rect id="default-avatar" width="200.000000" height="200.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="default-avatar" width="200.000000" height="200.000000" fill="#6F4E37" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip2_2)">
+		<circle id="椭圆 1" cx="100.000000" cy="100.000000" r="100.000000" fill="#6F4E37" fill-opacity="1.000000"/>
+		<g filter="url(#filter_2_4_dd)">
+			<path id="椭圆 2" d="M44 141C44 112.28 69.29 89 100.5 89C131.7 89 157 112.28 157 141C157 169.71 131.7 166 100.5 166C69.29 166 44 169.71 44 141Z" fill="#C4C4C4" fill-opacity="0" fill-rule="evenodd"/>
+			<path id="椭圆 2" d="M44 141C44 112.28 69.29 89 100.5 89C131.7 89 157 112.28 157 141C157 166.68 136.76 166.42 110.17 166.08C107.02 166.04 103.79 166 100.5 166C97.2 166 93.97 166.04 90.82 166.08C64.23 166.42 44 166.68 44 141ZM77.31 97.77C84.31 94.59 92.04 93 100.5 93C108.95 93 116.68 94.59 123.68 97.77C128.75 100.07 133.43 103.21 137.74 107.17C143.56 112.53 147.72 118.52 150.21 125.13C152.07 130.07 153 135.36 153 141C153 147.5 151.37 152.43 148.12 155.77C146.52 157.41 144.54 158.67 142.17 159.54C137.04 161.44 126.39 162.28 110.22 162.08C105.95 162.02 102.71 162 100.5 162C98.28 162 95.04 162.02 90.77 162.08C74.6 162.28 63.95 161.44 58.82 159.54C56.45 158.67 54.47 157.41 52.87 155.77C49.62 152.43 48 147.5 48 141C48 135.36 48.92 130.07 50.78 125.13C53.27 118.52 57.43 112.53 63.25 107.17C67.56 103.21 72.24 100.07 77.31 97.77Z" fill="#FFC970" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</g>
+		<g filter="url(#filter_2_5_dd)">
+			<circle id="椭圆 3" cx="100.500000" cy="66.500000" r="33.500000" fill="#6F4E37" fill-opacity="1.000000"/>
+			<circle id="椭圆 3" cx="100.500000" cy="66.500000" r="31.500000" stroke="#FFC970" stroke-opacity="1.000000" stroke-width="4.000000"/>
+			<circle id="椭圆 3" cx="100.500000" cy="66.500000" r="31.500000" stroke="#6F4E37" stroke-opacity="0" stroke-width="4.000000"/>
+		</g>
+	</g>
+</svg>
