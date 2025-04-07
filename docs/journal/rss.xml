@@ -437,21 +437,6 @@
             <category>Docusaurus</category>
         </item>
         <item>
-            <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://luhuadong.com/journal/mdx-blog-post</link>
-            <guid>https://luhuadong.com/journal/mdx-blog-post</guid>
-            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
-            <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/">MDX</a>.</p>
-<admonition type="tip"><p>Use the power of React to create interactive blog posts.</p></admonition>
-<!-- -->
-<p>For example, use JSX to create an interactive button:</p>
-<pre><code class="language-js">&lt;button onClick={() =&gt; alert('button clicked!')}&gt;Click me!&lt;/button&gt;
-</code></pre>
-<button>Click me!</button>]]></content:encoded>
-            <category>Docusaurus</category>
-        </item>
-        <item>
             <title><![CDATA[我的2020——一颗红心，两手准备]]></title>
             <link>https://luhuadong.com/journal/2020-year-end-summary</link>
             <guid>https://luhuadong.com/journal/2020-year-end-summary</guid>
@@ -476,7 +461,7 @@
 <p>然后因为疫情嘛，本来计划找时间去菲律宾语言学校进修一下，也被推迟了，2021 年再看看情况。不过今年一直有坚持在开言英语 App 上练习，也把抖音 App 训练成了英语学习神器，可以看到世界各地的情况，还蛮有用的。</p>
 <p>无人机驾驶证这个被忽略了，之前想玩这个是因为家里是山区，想看看能不能将无人机跟当地的农业结合起来，促进当地经济发展，目前这个计划还得再搁置一下。</p>
 <p>（ ￣ー￣）</p>
-<h3 id="工作回顾">工作回顾</h3>
+<h3 id="工作�回顾">工作回顾</h3>
 <p>好啦！给自己挖的坑汇报完了，接下来讲讲其他事。</p>
 <p>先说工作吧，今年在公司维护几套老旧代码，改得也是没脾气，然后参与了基于 RK3399 的通信终端，整合了一套 Linux 系统，增加了软件包管理和升级功能，还把 RT-Thread 引入到公司产品中，然后终于在 2020 年最后一个月离职了。。。</p>
 <p>因为各方面都遇到了瓶颈，也学不到新的东西了，对我来说这真是太可怕了。所以决定换个环境，给自己一个短 gap，希望未来的路走得更坚实。</p>
@@ -911,7 +896,7 @@
 <p>在这一年里，完成了职业生涯中的第一次跳槽，离开了工作近两年的工业机器人研发岗位。2014年告别学生时代，刚开始上班的时候，每天都热情高涨。后来进入项目研发阶段，更是每天都迫切希望看到自己设计的产品能够进入量产阶段，并获得市场的认可。然而，理想与现实的差距不是一星半点，虽说是研发岗，但实际上要处理很多琐事的事情，加上处于制造业的寒冬，导致项目中断，才有了跳槽的想法。</p>
 <p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto"><img alt="这里写图片描述" src="https://luhuadong.com/assets/images/2cc52af43479717dfe511c8e26e85fa9-2b5a1b3a85650fc68a654fd0dc150020.png#center" width="533" height="300" style="display:block;width:100%;height:auto;touch-action:none"></div></div></div><figcaption>这里写图片描述</figcaption></figure><p></p>
 <p>我依然记得当时在拉勾网上看到的一句话：<strong>你值得拥有更好的生活！</strong> 于是在2016年春天，我鼓足勇气提出辞职了。辞职后我并没有着急寻找新工作，我花了些时间了解自己、了解嵌入式、了解市场。按照计划，一个人孤独地在出租房里编码、调试、验证，然后在 CSDN 上做记录。我开始习惯于独立思考，不再畏惧孤独感，也很享受这种学习节奏。期间研究了一个基于 STM32 的四轴飞行器项目，同时获得了一个嵌入式资格证书。</p>
-<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto"><img alt="这�里写图片描述" src="https://luhuadong.com/assets/images/dc86678e5925e10f1010c039a45f4eac-f45b2b9479d4f8717bffd109354f54b6.png#center" width="706" height="300" style="display:block;width:100%;height:auto;touch-action:none"></div></div></div><figcaption>这里写图片描述</figcaption></figure><p></p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto"><img alt="这里写图片描述" src="https://luhuadong.com/assets/images/dc86678e5925e10f1010c039a45f4eac-f45b2b9479d4f8717bffd109354f54b6.png#center" width="706" height="300" style="display:block;width:100%;height:auto;touch-action:none"></div></div></div><figcaption>这里写图片描述</figcaption></figure><p></p>
 <p>另外，还按照自己的想法实现了一个简易智能家居模型，尝试构思控制终端的界面设计，部分界面如下。色彩搭配和操作体验有待商榷，但我真的挺喜欢这种界面风格。</p>
 <p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto"><img alt="这里写图片描述" src="https://luhuadong.com/assets/images/512ebcab00213765cccada70a92bec12-044b8bede5fec0e9bf6d6a820358f409.png#center" width="975" height="600" style="display:block;width:100%;height:auto;touch-action:none"></div></div></div><figcaption>这里写图片描述</figcaption></figure><p></p>
 <p>虽然研究自己感兴趣的东西会让我感到兴奋而充实，但毕竟一线城市的生活成本并不低，慢慢地感觉需要开始找工作了，于是开始有目标地投递简历。这时的我跟毕业时的我相比，在找工作的过程中有了更多选择权，不会因为毕业于普通本科院校并且是非科班出身的程序员而感到担忧。是的，我想：只要我们真正努力了，结果就不会比我们所预计的差。</p>
@@ -967,6 +952,45 @@
 </ul>]]></content:encoded>
             <category>程序员</category>
             <category>OpenSource</category>
+        </item>
+        <item>
+            <title><![CDATA[开篇：这个部落格 📝]]></title>
+            <link>https://luhuadong.com/journal/first-blog-post</link>
+            <guid>https://luhuadong.com/journal/first-blog-post</guid>
+            <pubDate>Thu, 26 Jun 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[终于还是开通了这个部落格（Blog），而这，就是第一篇文章。我将会在这里记录、发布我的所思所想，内容范围不固定，更新频度也不固定，但是我会尽量保证所分享的内容都是有趣、实用的。]]></description>
+            <content:encoded><![CDATA[<p>终于还是开通了这个部落格（Blog），而这，就是第一篇文章。我将会在这里记录、发布我的所思所想，内容范围不固定，更新频度也不固定，但是我会尽量保证所分享的内容都是有趣、实用的。</p>
+<p>如果你想了解我，可以在导航栏点击“关于”，找到关于我的一些信息以及我的联系方式。</p>
+<h2 id="快速开始">快速开始</h2>
+<h3 id="背景">背景</h3>
+<p>早在2013年，我就开始在 <a href="https://blog.csdn.net/lu_embedded">CSDN</a> 上面写博客，只不过内容偏向于软件技术。在漫长的学习、工作和生活当中，其实有许许多多的事情值得我们去记录。有时候，我们需要停下来，等一下我们的灵魂，充实一下我们的精神世界。</p>
+<p>人生有无限可能，所以我想重新开辟一个空间，展示 A 面、B 面、C 面......</p>
+<p>我也不知道哪个才是“真正的自我”，也许就是这一个个“可能的自我”，组合起来，才是那个真实的我，管它呢！</p>
+<h3 id="内容">内容</h3>
+<p>这里可能会分享：</p>
+<ul>
+<li>个人成长</li>
+<li>读书笔记</li>
+<li>生活感悟</li>
+<li>运动健康</li>
+<li>财富管理</li>
+<li>软件技术</li>
+<li>行业分析</li>
+<li>环境保护</li>
+<li>......</li>
+</ul>
+<p>显然，在有限的生命的，我所触及的事物是有限的，且必然带有主观色彩。所以你们要带着辩证思维去阅读。</p>
+<h3 id="愿景">愿景</h3>
+<p>正如这个网站的 Title 那样，我的目标是 —— <strong>成为自由人</strong>。</p>
+<p>人生中有许多值得我们去追求的东西，比如，考一个好大学、找一份好工作、买车、买房、结婚、生子......</p>
+<p>然而，对于我来说，我更希望能尽早成为一个自由人。</p>
+<p>当我不再需要为钱而工作，不再被各种精神枷锁抑制，我知道，我一定会迸发出强大的创造力，一定会创造更大的价值！</p>
+<p>我想，你们也一样。</p>
+<h3 id="联系">联系</h3>
+<p>邮箱：<a href="mailto:luhuadong@163.com">luhuadong@163.com</a></p>
+<hr>
+<p>2014年夏天 🌞</p>]]></content:encoded>
+            <category>milestone</category>
         </item>
     </channel>
 </rss>
