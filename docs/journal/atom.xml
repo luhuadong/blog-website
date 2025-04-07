@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luhuadong.com/journal</id>
-    <title>成为自由人 Blog</title>
+    <title>阿基米东 Freedom Blog Blog</title>
     <updated>2024-09-15T17:17:35.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luhuadong.com/journal"/>
-    <subtitle>成为自由人 Blog</subtitle>
+    <subtitle>阿基米东 Freedom Blog Blog</subtitle>
     <icon>https://luhuadong.com/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[我的 PFE 和人生五事 🖐]]></title>
