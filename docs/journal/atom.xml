@@ -26,7 +26,7 @@
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->主页增加站长介绍、日历、最新文章、推荐阅读、在读书单、年度目标（人生五事）等</li>
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->增加社交媒体图标（<a href="https://react-icons.github.io/react-icons" target="_blank" rel="noopener noreferrer">react-icons</a>）</li>
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->增加搜索功能</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->增加评论功能</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->增加评论功能</li>
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->实现多图叠加左右切换组件</li>
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->增加歌词、诗歌的居中展示区块</li>
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->增加广告位</li>
