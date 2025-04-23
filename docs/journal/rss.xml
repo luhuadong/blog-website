@@ -4,10 +4,63 @@
         <title>阿基米东 Freedom Blog Blog</title>
         <link>https://luhuadong.com/journal</link>
         <description>阿基米东 Freedom Blog Blog</description>
-        <lastBuildDate>Tue, 08 Apr 2025 01:01:30 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Apr 2025 13:51:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[颜色搭配原理，推荐一些好看的配色]]></title>
+            <link>https://luhuadong.com/journal/color-matching-principles</link>
+            <guid>https://luhuadong.com/journal/color-matching-principles</guid>
+            <pubDate>Wed, 23 Apr 2025 13:51:30 GMT</pubDate>
+            <description><![CDATA[我最近在做网站/小程序开发，所以对颜色搭配做了一些粗浅的研究。我们都知道，现在是“颜值即正义”的时代，所以色彩搭配在网页或应用设计中是非常重要的。配色是一种非常直观的视觉语言，它不仅决定了界面的整体氛围，还会影响用户的情绪、注意力和阅读体验。一个舒适的配色方案，可以让人感到放松、有秩序和美感；而糟糕的配色则容易造成视觉疲劳，甚至让人误解内容。]]></description>
+            <content:encoded><![CDATA[<p>我最近在做网站/小程序开发，所以对颜色搭配做了一些粗浅的研究。我们都知道，现在是“颜值即正义”的时代，所以色彩搭配在网页或应用设计中是非常重要的。配色是一种非常直观的视觉语言，它不仅决定了界面的整体氛围，还会影响用户的情绪、注意力和阅读体验。一个舒适的配色方案，可以让人感到放松、有秩序和美感；而糟糕的配色则容易造成视觉疲劳，甚至让人误解内容。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="颜色搭配原理">颜色搭配原理<a href="https://luhuadong.com/journal/color-matching-principles#%E9%A2%9C%E8%89%B2%E6%90%AD%E9%85%8D%E5%8E%9F%E7%90%86" class="hash-link" aria-label="颜色搭配原理的直接链接" title="颜色搭配原理的直接链接">​</a></h2>
+<p>色彩搭配并非随意选择，它背后有一些基础的视觉原理和心理规律：</p>
+<ul>
+<li><strong>色轮理论</strong>：互补色（对比强烈），邻近色（和谐柔和），三角配色（三色平衡）。</li>
+<li><strong>冷暖对比</strong>：冷色如蓝绿，令人安静；暖色如红黄，令人振奋。</li>
+<li><strong>明度与对比度</strong>：亮色 + 深色有助于文字可读性。</li>
+<li><strong>心理联想</strong>：不同颜色引发不同情感，比如紫色代表浪漫、黄色代表活力等。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="为什么这些配色让人舒服">为什么这些配色让人舒服？<a href="https://luhuadong.com/journal/color-matching-principles#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E4%BA%9B%E9%85%8D%E8%89%B2%E8%AE%A9%E4%BA%BA%E8%88%92%E6%9C%8D" class="hash-link" aria-label="为什么这些配色让人舒服？的直接链接" title="为什么这些配色让人舒服？的直接链接">​</a></h2>
+<p>我们之所以会觉得某些颜色组合“舒服”，往往是因为它们在以下几个维度上取得了良好的平衡：</p>
+<p><strong>✅ 1. 明暗对比适中</strong></p>
+<p>比如「玫红 + 黑色」、「柠檬黄 + 浅灰」都体现了高对比度原则，在视觉上既清晰又不刺眼。</p>
+<p>色块之间有明显区分但不过于激烈，适合长期阅读或作为 UI 元素。</p>
+<p><strong>✅ 2. 冷暖搭配协调</strong></p>
+<p>「湖蓝 + 米白」结合了冷色与中性色，清新自然。</p>
+<p>「橙红 + 卡其」将暖色调与柔和的米黄色组合，给人温暖、亲切的感觉。</p>
+<p><strong>✅ 3. 情绪和心理感受契合</strong></p>
+<p>紫色常给人神秘、浪漫的印象，配上浅灰色后显得优雅而不压抑；</p>
+<p>草绿让人联想到自然与健康，配上深灰色后既有生机又不浮躁。</p>
+<p><strong>✅ 4. 参考了经典配色经验</strong></p>
+<p>这些颜色组合背后其实有很多是被反复验证过的「经典配色」，广泛出现在品牌设计、室内装潢、平面设计、插画中，已经被大多数人所接受。</p>
+<p><strong>✅ 5. 色彩空间距离合理</strong></p>
+<p>配色时我们通常希望两种颜色在色相环上不是完全对立（如红+绿），而是保持一定的角度差距，让视觉更容易接受。比如相邻色（紫+灰）和对比色（蓝+米白）就是很典型的搭配方式。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="好看的-css-配色推荐">好看的 CSS 配色推荐<a href="https://luhuadong.com/journal/color-matching-principles#%E5%A5%BD%E7%9C%8B%E7%9A%84-css-%E9%85%8D%E8%89%B2%E6%8E%A8%E8%8D%90" class="hash-link" aria-label="好看的 CSS 配色推荐的直接链接" title="好看的 CSS 配色推荐的直接链接">​</a></h2>
+<p>以下是六组经过挑选的<strong>两色组合</strong>，可用于网页背景与前景、按钮与文字、主色与强调色的搭配：</p>
+<!-- -->
+<div class="colorPairContainer_iQlh"><div class="label_Q8MS">玫红 + 纯黑</div><div class="colorBlockWrapper_hDt4"><div class="colorBlock_mhYB" style="background-color:#e91e63"></div><div class="colorBlock_mhYB" style="background-color:#000000"></div></div></div>
+<p>玫红是一种充满活力的颜色，搭配纯黑可以创造出强烈的对比感与时尚氛围，适合用于现代感十足的设计中。</p>
+<div class="colorPairContainer_iQlh"><div class="label_Q8MS">草绿 + 深灰</div><div class="colorBlockWrapper_hDt4"><div class="colorBlock_mhYB" style="background-color:#8bc34a"></div><div class="colorBlock_mhYB" style="background-color:#333333"></div></div></div>
+<p>草绿色温和而自然，深灰色则稳重不张扬，这种搭配给人一种“生态科技”或“环保清新”的感受。</p>
+<div class="colorPairContainer_iQlh"><div class="label_Q8MS">薰衣草紫 + 浅灰</div><div class="colorBlockWrapper_hDt4"><div class="colorBlock_mhYB" style="background-color:#b57edc"></div><div class="colorBlock_mhYB" style="background-color:#d3d3d3"></div></div></div>
+<p>薰衣草紫自带优雅和梦幻感，浅灰色提供了温和的中性背景，让整体不显突兀，适合女性向设计或内容平台。</p>
+<div class="colorPairContainer_iQlh"><div class="label_Q8MS">橙红 + 卡其</div><div class="colorBlockWrapper_hDt4"><div class="colorBlock_mhYB" style="background-color:#ff5722"></div><div class="colorBlock_mhYB" style="background-color:#f0e68c"></div></div></div>
+<p>橙红热情活泼，卡其色偏米色调，搭配后给人一种复古而亲切的气质，适合品牌类网站或博客主题配色。</p>
+<div class="colorPairContainer_iQlh"><div class="label_Q8MS">湖蓝 + 米白</div><div class="colorBlockWrapper_hDt4"><div class="colorBlock_mhYB" style="background-color:#00bcd4"></div><div class="colorBlock_mhYB" style="background-color:#fdf6e3"></div></div></div>
+<p>湖蓝代表冷静、科技感，米白提供了柔和的视觉缓冲，非常适合用于 SaaS、科技产品或 UI 背景。</p>
+<div class="colorPairContainer_iQlh"><div class="label_Q8MS">柠檬黄 + 浅灰</div><div class="colorBlockWrapper_hDt4"><div class="colorBlock_mhYB" style="background-color:#fff44f"></div><div class="colorBlock_mhYB" style="background-color:#e8e8e8"></div></div></div>
+<p>明亮的柠檬黄在浅灰色的衬托下更为醒目，适合需要高能量、高注意力的界面部分，如 CTA 按钮或提示框。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="小贴士如何选择配色">小贴士：如何选择配色？<a href="https://luhuadong.com/journal/color-matching-principles#%E5%B0%8F%E8%B4%B4%E5%A3%AB%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E9%85%8D%E8%89%B2" class="hash-link" aria-label="小贴士：如何选择配色？的直接链接" title="小贴士：如何选择配色？的直接链接">​</a></h2>
+<ul>
+<li>用主色（Primary）+ 辅色（Accent）+ 中性色（Neutral）结构最稳妥。</li>
+<li>保证前景色与背景色对比度足够（推荐对比度大于 4.5:1）。</li>
+<li>可以借助工具如 <a href="https://coolors.co/" target="_blank" rel="noopener noreferrer">Coolors</a>、<a href="https://color.adobe.com/" target="_blank" rel="noopener noreferrer">Adobe Color</a> 获取灵感。</li>
+</ul>]]></content:encoded>
+            <category>设计</category>
+        </item>
         <item>
             <title><![CDATA[基于 Docusaurus 的个人博客网站上线啦！🎉]]></title>
             <link>https://luhuadong.com/journal/new-website-launched</link>
