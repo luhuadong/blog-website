@@ -2,11 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luhuadong.com/blog</id>
     <title>阿基米东 Freedom Blog Blog</title>
-    <updated>2025-11-27T19:39:00.000Z</updated>
+    <updated>2025-12-30T16:16:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luhuadong.com/blog"/>
     <subtitle>阿基米东 Freedom Blog Blog</subtitle>
     <icon>https://luhuadong.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[找素食 App 发布预告，聊聊项目进展和我的思考]]></title>
+        <id>https://luhuadong.com/blog/vegapp-release-announcement</id>
+        <link href="https://luhuadong.com/blog/vegapp-release-announcement"/>
+        <updated>2025-12-30T16:16:00.000Z</updated>
+        <summary type="html"><![CDATA[2025年就要结束了，首先很抱歉，之前说年底会上线的我们的素食 App（小程序），但是很遗憾，因为各种原因，没能如期上线。现在的卡点是这个小程序涉及内容创作和分享功能，属于 UGC 平台，需要相关部门审核。反正就是挺烦人的，啥都要审核，每次都要审核好几天，审核不通过还要处理好才能再次提交审核。]]></summary>
+        <content type="html"><![CDATA[<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/vegapp-release-banner-34ecba6d91d8c74e0aa0bcee2762afa4.png" width="900" height="383" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>
+<p>2025年就要结束了，首先很抱歉，之前说年底会上线的我们的素食 App（小程序），但是很遗憾，因为各种原因，没能如期上线。现在的卡点是这个小程序涉及内容创作和分享功能，属于 UGC 平台，需要相关部门审核。反正就是挺烦人的，啥都要审核，每次都要审核好几天，审核不通过还要处理好才能再次提交审核。</p>
+<p>这个项目从9月份开始启动，本来想着花三个月时间速战速决，现在看来是低估了难度啦！如果审核不通过，还是得想办法把 ICP 经营许可证办下了，估计又要花一两个月时间。现在国内的互联网环境真的越来越严格了，不容易啊！</p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/vegapp-check-20251230-1-d80ad79f2bdc5b0cd82485903fb9bb89.png" width="2772" height="1800" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="最近做了些什么">最近做了些什么<a href="https://luhuadong.com/blog/vegapp-release-announcement#%E6%9C%80%E8%BF%91%E5%81%9A%E4%BA%86%E4%BA%9B%E4%BB%80%E4%B9%88" class="hash-link" aria-label="最近做了些什么的直接链接" title="最近做了些什么的直接链接">​</a></h2>
+<p>这段时间认认真真肝了两三个星期，总算把核心功能都实现完了，主要包括数据库设计、后台管理系统搭建、前端小程序开发，具体功能板块包括用户管理、商户管理、食谱管理、笔记管理。因为涉及 UGC（用户生成内容），所以还花了些时间研究并搭了一套简单的审核机制。</p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/20251230-workspace-322ea27c6369266ec0613c6380b2482a.jpg" width="1620" height="1080" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>
+<p>有时候不想写代码、不想调试，就会读几本素食、营养相关的书。毕竟要在素食行业创业，必须要让自己成为这个领域的专家，才能引领行业发展。</p>
+<p>另外还提交了一次创投大赛申请，花了整整两天时间填资料、录视频。暂时还没有结果，不过这次经历也帮我梳理清楚了一些问题。</p>
+<p>有时候会觉得挺奇怪的，因为现在投资人喜欢的项目是 AI、机器人方向。而我的本职工作其实也更适合做这些，但现在创业的项目却是做一个小众赛道 —— 素食。</p>
+<p>打磨这个产品的过程中，有时候也会觉得尴尬，因为不知道这是不是大家想要的、需要的东西。不过，最近听播客听到有人分享：创业做产品的时候感到尴尬就对了，如果不尴尬，说明已经没有机会了。</p>
+<p>今年真的经历了好多事情，这个过程虽然有点苦，但经历完之后，现在回想起来，还真有点不一样了，包括对世界的理解，对人性的洞察。 也对创业这件事情有了更深的理解，无论做什么行业、什么项目，都要对这个领域有足够的了解，甚至成为行业专家。</p>
+<p>对了，我还发布了一个叫 <strong>HowToCookVegan</strong> 的开源项目，已经在 GitHub 开源，内容发布在我们公司的官网，大家感兴趣可以去看看。也欢迎大家参与进来，一起写好这份素食指南。</p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/HowToCookVegan-website-screenshot-e8df4845c2eacdbdf6489ee56446ddfd.png" width="1902" height="1080" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>
+<ul>
+<li>GitHub 地址：<a href="https://github.com/huggypig/HowToCookVegan" target="_blank" rel="noopener noreferrer">https://github.com/huggypig/HowToCookVegan</a></li>
+<li>在线阅读：<a href="https://huggypig.com/docs/" target="_blank" rel="noopener noreferrer">https://huggypig.com/docs/</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="找素食小程序">找素食小程序<a href="https://luhuadong.com/blog/vegapp-release-announcement#%E6%89%BE%E7%B4%A0%E9%A3%9F%E5%B0%8F%E7%A8%8B%E5%BA%8F" class="hash-link" aria-label="找素食小程序的直接链接" title="找素食小程�序的直接链接">​</a></h2>
+<p>虽然我们正式版本没有上线，不过我们的 demo 上线了！大家可以扫码进去看看，虽然真实功能还没开放，但也有整体模块设计，可以先感受一下，给我们提点建议。</p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/miniapp-qrcode-ae56fb8c6e62b32656452d31e3c31629.png" width="430" height="430" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>
+<p>小程序目前的名字叫“抱抱猪找素食”，其中“抱抱猪”是我们公司的名字，“找素食”是我们为这个项目起的第一个名字。因为我们现在没有拿到商标，微信官方审核又变得特别严格，小程序名字必须要与公司名字相关，所以现在会看到一个有点奇怪的名字。（下面我还是以“找素食 App”来称呼这个项目）</p>
+<p>关于公司名字的由来，在我们官网（<a href="https://huggypig.com/" target="_blank" rel="noopener noreferrer">huggypig.com</a>）有介绍。</p>
+<p>👉 <a href="https://mp.weixin.qq.com/s/cFC4rZa70x_JMFQ5yoQ2Mg" target="_blank" rel="noopener noreferrer">我们公司是做素食的，为什么叫抱抱猪？</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="一些问题和思考">一些问题和思考<a href="https://luhuadong.com/blog/vegapp-release-announcement#%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E5%92%8C%E6%80%9D%E8%80%83" class="hash-link" aria-label="一些问题和思考的直接链接" title="一些问题和思考的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="产品定位">产品定位<a href="https://luhuadong.com/blog/vegapp-release-announcement#%E4%BA%A7%E5%93%81%E5%AE%9A%E4%BD%8D" class="hash-link" aria-label="产品定位的直接链接" title="产品定位的直接链接">​</a></h3>
+<p>简单来说，找素食 App 是一个集素食餐厅/商户搜索、素食食谱分享、社交及购物于一体的素食垂直平台，可以简单理解为是纯素版本的“大众点评 + 下厨房 + 东方甄选”。目标是解决素食人群在外面吃饭和在家做饭两大场景的痛点，并通过食品的高频消费形成商业闭环。未来还会推出 AI 营养师和烹饪助手，以及逐步发展自己的素食产品品牌，并探索“碳积分”等碳中和业务，助力 SDG 可持续发展目标。</p>
+<p>我们希望打破素食者与非素食者的二元对立，我们希望打破素食者的刻板印象，我们希望帮助大家在素食这条路上吃饱、吃好、吃得更健康，我们希望可以赋能素食行业从业者，我们希望可以传播正确的文化价值观、实现 SDG 可持续发展目标。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="用户群体">用户群体<a href="https://luhuadong.com/blog/vegapp-release-announcement#%E7%94%A8%E6%88%B7%E7%BE%A4%E4%BD%93" class="hash-link" aria-label="用户群体的直接链接" title="用户群体的直接链接">​</a></h3>
+<p>我设想的用户群体是 plant-based 和 plant-forward 泛素食人群。也就是说包括严格意义上的素食主义者，以及只想多吃植物，但不完全排斥动物性食品的人群。这我们认为世界应该有的样子，相对于只有极少数人坚持严格素食，我更希望看到未来每个人、每个家庭有50%（甚至更多）的餐饮选择是素食。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="名字和商标">名字和商标<a href="https://luhuadong.com/blog/vegapp-release-announcement#%E5%90%8D%E5%AD%97%E5%92%8C%E5%95%86%E6%A0%87" class="hash-link" aria-label="名字和商标的直接链接" title="名字和商标的直接链接">​</a></h3>
+<p>关于这个 App 名字，我们之前征集过一次意见。我认真看了每个人给我的留言，虽然最终没有用上，但真的很感谢大家！</p>
+<p>因为我喜欢简单、直接一点，所以我其实最想用的名字就是“找素食”。但是很遗憾，咨询了知识产权顾问，发现这种动词+名词的常用词组合很难注册成功（可以参考“下厨房”）。所以后来我又想了几个名字，包括“素托邦”等，并且提交了商标注册申请。</p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/20251231-trademark-a560e61fd0ebe7290b015470d1c2218c.jpg" width="1080" height="974" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>
+<p>现在上架 App、小程序变得越来越严格，必须要有商标、著作权等认证，不是我们想用什么名字就能用。所以我现在的想法是，哪个商标能先拿到，我们就用哪个。在此之前，它还是叫“找素食”。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="产品形态">产品形态<a href="https://luhuadong.com/blog/vegapp-release-announcement#%E4%BA%A7%E5%93%81%E5%BD%A2%E6%80%81" class="hash-link" aria-label="产品形态的直接链接" title="产品形态的直接链接">​</a></h3>
+<p>我们现在做的是微信小程序，选择先做小程序一方面是因为发布流程相比于原生 App 比较简单，另一方面是我们目前没有搭建自己的独立电商平台，而是想依托于微信小店完成 MVP 功能验证，所以想先在微信生态中实现产品闭环。</p>
+<p>只要项目能活下去，未来我们一定会做自己的独立电商、发布 Android 和 iOS 原生 App。如果用户需求强烈，我们也会考虑先发布一款阉割版的原生 App。</p>
+<p>另外，考虑大家用网页越来越少，我们原本计划暂时不做 Web 网页版。但是由于微信小程序审核不通过等原因，我正在思考要不要先做一个网页版。或者在网页版上增加一些 to B 的功能，例如提供素食品牌和产品发布和查询功能。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="市场规模">市场规模<a href="https://luhuadong.com/blog/vegapp-release-announcement#%E5%B8%82%E5%9C%BA%E8%A7%84%E6%A8%A1" class="hash-link" aria-label="市场规模的直接链接" title="市场规模的直接链接">​</a></h3>
+<p>素食目前还是一个小众赛道，我之前大概分析了目前素食领域做得比较好的一些平台、电商，头部企业年度 GMV 估计在五千万到一个亿。按食品行业 20% 的利润来说，一年能赚大几百万到一两千万。显然，和三只松鼠这些品牌相比，素食行业还有很大的发展空间。</p>
+<p>研究市场和投融资这方面其实我也不太懂，这里就简单分享一下。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="开放平台">开放平台<a href="https://luhuadong.com/blog/vegapp-release-announcement#%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0" class="hash-link" aria-label="开放平台的直接链接" title="开放平台的直接链接">​</a></h3>
+<p>我们说要做一个开放、中立的平台，那怎么开放呢？</p>
+<p>首先我们会持续收录素食品牌和产品、素食餐厅、素食食谱等信息资源，提供给大家查询（如果需要 API 服务，也可以私信我）。另外，我们发布 HowToCookVegan 开源项目是一种尝试，希望通过开源协作的方式和大家一起共创。</p>
+<p>未来，如果有需求我们会考虑做一套餐厅订餐/点餐系统、农场管理系统，用开源 + SaaS 服务的方式给大家使用。我有花一些时间调研餐厅、农场管理系统，其实已经有很多人在做，也有很多项目已经死了。所以这些工作我们暂时还在规划中，需要多了解行业痛点，接收更多的抱怨声音，才知道应该做什么、怎么做。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="合伙人">合伙人<a href="https://luhuadong.com/blog/vegapp-release-announcement#%E5%90%88%E4%BC%99%E4%BA%BA" class="hash-link" aria-label="合伙人的直接链接" title="合伙人的直接链接">​</a></h3>
+<p>我自己是从 2017 年开始尝试吃素的，从弹性素、锅边素开始，到后来蛋奶素、纯素、纯净素，体验了一遍，现在又回到了蛋奶素的状态。也是在这个过程中，我对素食行业有了更多了解，甚至打击邪教去了。打击邪教那段时间，我甚至极其厌恶“素食者”这个标签。后来有一次，我想通了！如果我真的喜欢素食这种生活方式，那我应该勇敢一点，直接用参与商业竞争，把坏人赶走，告诉大家其实素食是这样的。于是就有了“找素食App”这个项目！</p>
+<p>这两个月也有一些人联系我，想了解这个项目，甚至想加入，所以我也在认真思考合伙人的问题。创业这条路真的太艰难、太孤独了，尤其对于“找素食 App”这个项目，我一个人忙不过，写代码的时候就没办法开拓市场。但是合适的合伙人可遇不可求，请神容易送神难，所以我的态度是宁缺毋滥。反正最坏的打算就是用我自己的钱，慢慢熬出来，目前我们公司的成本控制得不错，活个两三年问题不大。</p>
+<p>所以如果你真的想加入，我希望你可以想清楚，准备好了和我一起战斗，不要辜负这份事业，不要辜负“联合创始人”的称号。</p>
+<p>以上，祝大家新年快乐！我们 2026 年见~ 👋</p>]]></content>
+        <author>
+            <name>阿基米东</name>
+            <uri>https://github.com/luhuadong</uri>
+        </author>
+        <category label="不定时日记" term="不定时日记"/>
+        <category label="创业" term="创业"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[美满婚姻指南：找老婆的五个标准]]></title>
         <id>https://luhuadong.com/blog/five-criteria-for-finding-a-wife</id>
@@ -1107,67 +1171,5 @@
             <uri>https://github.com/luhuadong</uri>
         </author>
         <category label="创客" term="创客"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我的2021——为自己的选择放手一搏]]></title>
-        <id>https://luhuadong.com/blog/2021-year-end-summary</id>
-        <link href="https://luhuadong.com/blog/2021-year-end-summary"/>
-        <updated>2021-12-31T08:45:00.000Z</updated>
-        <summary type="html"><![CDATA[一眨眼，2021年就到尾声了，叹时间如白驹过隙，忧此生碌碌无为，徒增年岁。今年是 2 字头的最后一年了，明年就 30 岁，想想还是挺恐怖的，儿时的记忆仿佛昨日，而我却已三十，人生有几个三十？]]></summary>
-        <content type="html"><![CDATA[<p>一眨眼，2021年就到尾声了，叹时间如白驹过隙，忧此生碌碌无为，徒增年岁。今年是 2 字头的最后一年了，明年就 30 岁，想想还是挺恐怖的，儿时的记忆仿佛昨日，而我却已三十，人生有几个三十？</p>
-<p>今年的小标题是“为自己的选择放手一搏”，完整的台词是：“青春是为自己的选择放手一搏，青春是为自己的热爱拼尽全力！” 虽然很多人都说选择大于努力，以至于常常焦虑自己的选择是否正确，但我逐渐意识到，其实很多东西根本就没有正确的选择，我们只能靠奋斗，来使当初的选择显得正确。同时，希望我能一直保持年轻，不被束缚。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="工作">工作<a href="https://luhuadong.com/blog/2021-year-end-summary#%E5%B7%A5%E4%BD%9C" class="hash-link" aria-label="工作的直接链接" title="工作的直接链接">​</a></h2>
-<p>按照惯例，先说说今年的工作情况。2020 年底离开了工作四年零五个月的老牌国企，终于离开了！常常跟朋友说要辞职，这次终于是真的了。我也纳闷自己，怎么好像越来越害怕离开舒适圈，害怕没有公司的标签？我想，如果不提及工作，自我介绍的时候我应该怎么介绍自己？好像自己并没有特别有趣......</p>
-<p>总之就是辞职了，虽然总有人吓唬我，比如说现在疫情期间工作不好找、不上班你怎么还房贷、干嘛不好好上班...... 但其实并没有那么可怕。不过，没休息多久，我还是决定去上班了。</p>
-<p>2021年1月份，加入了某环保数采仪头部厂商，岗位是 Linux 驱动工程师。因为常年关注环保，所以有关注这家公司，刚好也想了解这些环保设备的构造和市场，所以就加入了。后来参与了一个完整的环保数采仪项目，基于 NXP i.MX8，移植上一代产品的后端程序，自己实现的 UI。前前后后折腾大半年，从硬件到软件，从架构到应用，都摸了个透。算是满足了当初在国企想做却没有机会做的项目的愿望。</p>
-<p>技术上感觉并没有太多长进，都是嵌入式、Linux 那堆东西，有现成的开源库就用，没有就自己写写，感觉都是炒冷饭，只是应用场景不一样而已。虽然这些年来都说自己做研发工作，但好像从来都只是 Development，并没有什么 Research。毕竟不是在大公司的研究所，公司雇佣我也就是为了做产品应用，自然不会愿意花钱让我们搞啥研究。所以，还是要靠自己利用业余时间搞学习、搞研究。</p>
-<p>不过，前段时间项目结束之后，我还是辞职了。辞职的原因有很多，包括从项目中学到的东西越来越少了，而乱七八糟的事却越来越多了；了解到环保数采仪的市场行情之后，略有失望，一方面市场太小，另一方面需要与政府部门打交道，很难作为我下一个阶段的起点；另外，长期一个人在郊区生活，不利于身心健康。</p>
-<p>后来有接触两家新能源车企，毕竟天天关注“碳中和”的我，觉得自己还是要投入到碳中和的大趋势中。只不过，拿到 offer 之后，我又拒绝了。虽然薪资很吸引人，工作内容也很契合，但我感觉自己还没准备好全心投入到新的工作。同时，这个阶段的我，内心也有一点“宁做鸡头，不做凤尾”的心理倾向，作为长期主义者，我还是希望能够沉淀出一些自己的东西，做一些属于自己的产品，而不是无休止地开发。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="学习">学习<a href="https://luhuadong.com/blog/2021-year-end-summary#%E5%AD%A6%E4%B9%A0" class="hash-link" aria-label="学习的直接链接" title="学习的直接链接">​</a></h2>
-<p>今年学到最重要的一样东西是 —— 不要劝别人学习！我以前老爱说教，给别人提建议，自以为在帮别人，实际上可能在害别人。不是说学习不重要，而是每个人的点都不一样，为什么学、怎么学、学什么... 都不一样，自然不能用我觉得好的方法要求别人。</p>
-<p>在人际关系中，“说教”是会带来伤害的，“以身作则”才是最好的教育方式。当意识到要对自己负责的时候，人自然会提起精神来学习。这和苏轼最后说的一句话 —— “着力即差” 的道理一样。有时候我们使劲地推，逼孩子学习、推项目进度等等，效果反而很差。</p>
-<p>“着力即差”的意思是：下的功夫越多，事情就越容易做错。真正的热爱是不需要坚持的。我们常常对自己说要努力学习、努力工作、努力赚钱，要坚持不懈，但结果可能是问题越来越多，甚至坠入深渊。佛法还是蛮有趣的，不执着、一切随缘。</p>
-<p>说完虚的，再说点实的。</p>
-<p>今年读了一些心理学方面的书，因为我感觉自己需要采取一些主动的心理干预，才能进入人生的下一阶段，真是“人均抑郁”的时代。书是看了，不过好像也没记住多少，印象最深刻的是《被讨厌的勇气》，代入感很强！也让我从“原因论”转变为“目的论”，以前总是下意识地找借口 —— 因为以前怎么怎么样，所以现在怎么怎么样...（感觉是在国企养成的坏思维习惯）一开始很难接受“目的论”，因为这意味着过去的很多东西是错误的，非常矛盾。不过好在我的接受能力比较强，我很喜欢这种颠覆观念的感觉。在我看来，“目的论”和马斯克的“第一性原理”有着共同点，我们思考问题应该朝着目标的方向去思考，回归到事物本身，它需要哪些基本条件，如何满足这些条件，如何找到实现目标的最优路径？</p>
-<p>比如，我经常在知乎遇到类似这样的问题：要不要学编程？转行做软件开发难不难？“原因论”者思考的是：我不是理工科、不是计算机专业，是不是学不会编程？而“目的论”者思考的是：编程是什么？我要怎么学编程？怎么样一步步深入学习，解决问题？再比如，现在很多年轻人恐婚（比如我），“原因论”思维是：因为我的父母婚姻不幸福，所以我可能也不幸福。而“目的论”思维是：幸福是什么？它有哪些指标？我要怎么一步步达到幸福？</p>
-<p>当然，《被讨厌的勇气》这本书还有很多受启发的内容，包括课题分离、共同体感觉等等。对我来说，这些方法确实能帮助到我。所有烦恼都是人际关系的烦恼，当划清界限之后，许多问题就迎刃而解了。课题分离，把我的问题交给我，把你的问题还给你，做好自己的份内事，因上努力，果上随缘。</p>
-<p>除了心理学，今年还看了许多关于“碳中和”的书，毕竟 2021 年被称为“碳中和元年”。其实老早之前就知道碳中和的概念，包括气候变化、碳交易市场、碳配额等等，只不过一直没有深入研究。直到最近闲赋在家，陆陆续续买了七、八本关于碳中和的书，才发现其实很好理解，就是一场广泛而深刻的经济社会系统性变革，百年未有之大变局嘛。确实很让人兴奋，不过对于咱们做事的人，还是要踏踏实实让项目落地，思考如何帮助更多人低碳生活。关于这部分就不在这里不细说了。</p>
-<p>除此之外，今年还学了一些开发技术，包括网络建站、数据分析、边缘计算等等，也开始尝试一些 DIY 硬件项目，说了那么多年，今年终于感觉自己有点像 Maker 啦！我想这些大概就是我的兴趣所在吧，不需要外力推动，却依旧乐在其中。低碳环保和创客精神将伴随我一生，说浪漫点 —— 此生追求，唯有爱与自由！（这大概就是信仰吧）</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="感情">感情<a href="https://luhuadong.com/blog/2021-year-end-summary#%E6%84%9F%E6%83%85" class="hash-link" aria-label="感情的直接链接" title="感情的直接链接">​</a></h2>
-<p>感情是我最不愿提及的一部分，包括亲情和爱情。不过，我现在已经是“目的论”者，所以还是要勇敢面对，因为要达到“幸福的彼岸”，无法绕开它们。</p>
-<p>是的，我结束了一段长达六年的感情。是我结束的，而且在我们即将跨入三十岁的阶段。我知道很多人会骂我，我也承受着来自家人和朋友的心理压力，只不过亲密关系是很私人的问题，很难用常理来解答。</p>
-<p>好像现在的生活越来越便利之后，大家对感情和婚姻的要求越来越高了。尤其是“女性主义”的崛起，在亲密关系中，常常让我思考：我应该怎么样和“女性主义”共生？我怎么样才能被需要？我能为对方提供什么服务？现在和以前不一样，比如说在石器时代，只要身体强壮就可以了，不管长得多丑；比如早几十年前，只要顾家、能养家糊口就可以了。而现在，会更多的考虑自身的感受，同时对方还要长得帅、能赚钱、性格好、品行好、身体好、会做饭、顾家...... 最好还风趣幽默，还有没事最好别烦我，我只想岁月静好......</p>
-<p>我觉得“女性主义”的崛起对人类发展来说是好事，但争取平等不是为了营造男女性别的对立。更何况，宏观和微观是有很大区别的，只有宏观达到“平等”才能解决许多社会问题。反正，我就是在这里摔了一跤。以前我觉得我应该会在三十岁之前结婚吧，现在觉得三十五之前能结婚就挺好的了。</p>
-<p>前几年看过一部印度电影《Pad Man》，把我看哭了。人生很长，会遇到许多问题，能遇到愿意一起成长的就好好珍惜吧！爱情的真正意义在于帮助对方提高的同时，提高自己。“共同体感觉”真的很重要。</p>
-<p>其实吧，我自己也很慌，不过随缘吧！因为我现在的课题是如何做好想做的事，成为更好的自己。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="生活">生活<a href="https://luhuadong.com/blog/2021-year-end-summary#%E7%94%9F%E6%B4%BB" class="hash-link" aria-label="生活的直接链接" title="生活的直接链接">​</a></h2>
-<p>生活方面好像没什么可总结的，可以说是一如既往的单调。不过，好在我总能自己找乐子，所以也挺享受独处。毕竟还有那么多书没看，还有那么多项目没做......</p>
-<p>今年终于把房子装修好了，不过我还不太习惯称它为“家”，因为我的心似乎还无法安放于此。和很多环保人士（极简、零废弃）一样，我对物质的追求并不高，而更注重精神世界的富足。不过这个观点得改，因为钱真的能解决很多问题！如果长期过着低物欲的生活，可能会丧失赚钱的欲望。</p>
-<p>贪官要奸，清官要更奸。同样，为了实现碳中和，富人要有钱，环保人士要更有钱。</p>
-<p>说到钱，今年的财商好像也没啥长进，还是以稳健型的指数基金定投为主，而且收益也不太理想，希望明年能优化一下策略吧。不过实现财务自由肯定不能光指望它，还是要增加更多的被动收入才行。今年的一个尝试是在自己的网站上接入了 Google Adsense，获取谷歌广告收益，不过现在的收入还太少了，都不够养活我自己。明年继续加油吧！</p>
-<p>布赖恩·费瑟斯通豪在《远见》书中写道：40岁之后能赚到的将占你一生个人财富的 85% 至 90%。</p>
-<p>人生是不断积累的过程，我还有10年厚积薄发，哈哈哈！做一个坚定的长期主义者！</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="计划">计划<a href="https://luhuadong.com/blog/2021-year-end-summary#%E8%AE%A1%E5%88%92" class="hash-link" aria-label="计划的直接链接" title="计划的直接链接">​</a></h2>
-<p>又到了立 Flag 的时候，先对自己说一声抱歉，去年立的 Flag 也有好一些没完成。比如说出书，说了一年都还没交稿，说了学 Rust 也没学，说了学素描也没学...... 不过 “着力即差”，哈哈哈，随缘吧！该完成的时候，自然会完成，那时候才是最好的！</p>
-<p>好吧，还是先列几个重要的 Flag：</p>
-<ul>
-<li>出书（增加嵌入式人工智能的内容，并争取早日走完出版流程）</li>
-<li>持续维护个人网站，争取 Google Adsense 收入达 $500/月</li>
-<li>完成几个 SDGs 可持续发展目标相关的硬件 DIY 项目</li>
-<li>参加一次创投项目</li>
-</ul>
-<p>另外，关于明年的工作计划，是一个比较头痛的问题。一方面，我对过去的工作内容几乎失去了兴趣，所以很难说服自己去找一个类似的工作，把自己摁在办公室上班赚钱。另一方面，我在准备明年的一个比赛，想看看能不能进入决赛再决定去哪工作，做什么工作。</p>
-<p>至于工作内容，我也想过，如果继续做嵌入式开发，优先考虑光伏储能、新能源汽车、自动驾驶、智能硬件，以及做开源软件的企业。如果跨行业就业，优先碳中和（环保、可持续）相关的创业项目和团队，虽然水很深，但以我的分析能力应该能辨别出优质的团队吧。另外，除了研发岗位，我也在考虑更接近用户的岗位，虽然对着 Datasheet 写代码很酷，但是用户也很有趣呀！是的，我意识到我的观念在发生变化...... 我开始关心用户需求、产品设计、交互方式这些东西了。</p>
-<p>自从认识尼古拉·特斯拉以来，他就是我的偶像，甚至因此而极其讨厌爱迪生。现在特斯拉依然是我的偶像，只不过我可能会更想成为爱迪生或马可尼那样的人。一方面，几乎可以断定我这辈子都无法达到特斯拉的高度，在学术领域获得显著成就；另一方面，技术的应用和商业化也很重要，让更多人因为科技的发展而获得更多公平机会，过上更可持续的生活，非常重要，也是我目前关心的。</p>
-<p>除了工作上的变化，明年还计划改善一下人际关系。你们知道，我真是一个非常懒的人，很少主动联系朋友（但不代表我不在乎你们）。我翻看通话记录才发现这些年来联系最多的是 Tina 和我妈，我就知道我肯定出问题了！—— 社交多样性的缺失会导致我对亲密关系的需求增多。毕业后的这些年来，我知道我错过了许多优秀的小伙伴的成长，也错过了许多绝地反击的机会，但也正是这些遗憾磨砺了我们的意志，未来也许会因此走得更坚定些。所以，如果有一天我突然联系你了，请不要害怕，我不是来找你借钱的~</p>
-<p>好啦，2021 年的总结到这里就快结束了，感谢你能看到这里！</p>
-<p>最近经常想起高中时期的一个画面，我的初中同校师弟（我和他都是初中那所学校中考第一名考进这所高中的）跟我说：“以前我觉得自己就是万里挑一的天选之子，清华北大就是为我准备的，但现在只要能考个本科就很好了......” 还好我从来没这么想过，后知后觉的我甚至很久以后才发现大学与大学之间的区别。直到现在，快三十的年纪，才慢慢悟出了一点做人和做事的方法。这些年来，虽然走了很多弯路，做了很多三天打鱼两天晒网的事情，但唯二坚持到现在依然热情不减的，是 Maker 和环保。我也不知道为啥，不过既然来了，那我就迎接它们吧。“十年饮冰，难凉热血” 也许就是这种感觉。而我过去苦苦寻找的交汇点，突然发现，原来是碳中和。我想，我必定是要在这个领域做点事情了！</p>
-<p>希望明年，我也能像孔子一样，说一句：“吾十有五而志于学，三十而立”。</p>]]></content>
-        <author>
-            <name>阿基米东</name>
-            <uri>https://github.com/luhuadong</uri>
-        </author>
-        <category label="总结" term="总结"/>
-        <category label="年终总结" term="年终总结"/>
     </entry>
 </feed>
