@@ -42,28 +42,34 @@
 <p>简单来说，找素食 App 是一个集素食餐厅/商户搜索、素食食谱分享、社交及购物于一体的素食垂直平台，可以简单理解为是纯素版本的“大众点评 + 下厨房 + 东方甄选”。目标是解决素食人群在外面吃饭和在家做饭两大场景的痛点，并通过食品的高频消费形成商业闭环。未来还会推出 AI 营养师和烹饪助手，以及逐步发展自己的素食产品品牌，并探索“碳积分”等碳中和业务，助力 SDG 可持续发展目标。</p>
 <p>我们希望打破素食者与非素食者的二元对立，我们希望打破素食者的刻板印象，我们希望帮助大家在素食这条路上吃饱、吃好、吃得更健康，我们希望可以赋能素食行业从业者，我们希望可以传播正确的文化价值观、实现 SDG 可持续发展目标。</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="用户群体">用户群体<a href="https://luhuadong.com/blog/vegapp-release-announcement#%E7%94%A8%E6%88%B7%E7%BE%A4%E4%BD%93" class="hash-link" aria-label="用户群体的直接链接" title="用户群体的直接链接">​</a></h3>
-<p>我设想的用户群体是 plant-based 和 plant-forward 泛素食人群。也就是说包括严格意义上的素食主义者，以及只想多吃植物，但不完全排斥动物性食品的人群。这我们认为世界应该有的样子，相对于只有极少数人坚持严格素食，我更希望看到未来每个人、每个家庭有50%（甚至更多）的餐饮选择是素食。</p>
+<p>我设想的用户群体是 plant-based 和 plant-forward 泛素食人群。也就是说包括严格意义上的素食主义者，以及只想多吃植物，但不完全排斥动物性食品的人群。这是我们认为世界应该有的样子，相对于只有极少数人坚持严格素食，我更希望看到未来每个人、每个家庭有50%（甚至更多）的餐饮选择是素食。</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="名字和商标">名字和商标<a href="https://luhuadong.com/blog/vegapp-release-announcement#%E5%90%8D%E5%AD%97%E5%92%8C%E5%95%86%E6%A0%87" class="hash-link" aria-label="名字和商标的直接链接" title="名字和商标的直接链接">​</a></h3>
 <p>关于这个 App 名字，我们之前征集过一次意见。我认真看了每个人给我的留言，虽然最终没有用上，但真的很感谢大家！</p>
 <p>因为我喜欢简单、直接一点，所以我其实最想用的名字就是“找素食”。但是很遗憾，咨询了知识产权顾问，发现这种动词+名词的常用词组合很难注册成功（可以参考“下厨房”）。所以后来我又想了几个名字，包括“素托邦”等，并且提交了商标注册申请。</p>
 <p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/20251231-trademark-a560e61fd0ebe7290b015470d1c2218c.jpg" width="1080" height="974" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>
 <p>现在上架 App、小程序变得越来越严格，必须要有商标、著作权等认证，不是我们想用什么名字就能用。所以我现在的想法是，哪个商标能先拿到，我们就用哪个。在此之前，它还是叫“找素食”。</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="产品形态">产品形态<a href="https://luhuadong.com/blog/vegapp-release-announcement#%E4%BA%A7%E5%93%81%E5%BD%A2%E6%80%81" class="hash-link" aria-label="产品形态的直接链接" title="产品形态的直接链接">​</a></h3>
-<p>我们现在做的是微信小程序，选择先做小程序一方面是因为发布流程相比于原生 App 比较简单，另一方面是我们目前没有搭建自己的独立电商平台，而是想依托于微信小店完成 MVP 功能验证，所以想先在微信生态中实现产品闭环。</p>
+<p>我们现在做的是微信小程序，选择先做小程序一方面是因为它的发布流程相比于原生 App 更简单，另一方面是我们目前没有搭建自己的独立电商平台，而是想依托于微信小店完成 MVP 功能验证，所以想先在微信生态中实现产品闭环。</p>
 <p>只要项目能活下去，未来我们一定会做自己的独立电商、发布 Android 和 iOS 原生 App。如果用户需求强烈，我们也会考虑先发布一款阉割版的原生 App。</p>
 <p>另外，考虑大家用网页越来越少，我们原本计划暂时不做 Web 网页版。但是由于微信小程序审核不通过等原因，我正在思考要不要先做一个网页版。或者在网页版上增加一些 to B 的功能，例如提供素食品牌和产品发布和查询功能。</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="市场规模">市场规模<a href="https://luhuadong.com/blog/vegapp-release-announcement#%E5%B8%82%E5%9C%BA%E8%A7%84%E6%A8%A1" class="hash-link" aria-label="市场规模的直接链接" title="市场规模的直接链接">​</a></h3>
-<p>素食目前还是一个小众赛道，我之前大概分析了目前素食领域做得比较好的一些平台、电商，头部企业年度 GMV 估计在五千万到一个亿。按食品行业 20% 的利润来说，一年能赚大几百万到一两千万。显然，和三只松鼠这些品牌相比，素食行业还有很大的发展空间。</p>
+<p>素食目前还是一个小众赛道，我之前大概分析了目前素食领域做得比较好的一些平台、电商，头部企业年度 GMV 估计在五千万到一个亿。按食品行业 20% 的利润来说，一年能赚大几百万到一两千万。显然，和三只松鼠这些大众品牌相比，素食行业还有很大的发展空间。</p>
 <p>研究市场和投融资这方面其实我也不太懂，这里就简单分享一下。</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="开放平台">开放平台<a href="https://luhuadong.com/blog/vegapp-release-announcement#%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0" class="hash-link" aria-label="开放平台的直接链接" title="开放平台的直接链接">​</a></h3>
 <p>我们说要做一个开放、中立的平台，那怎么开放呢？</p>
-<p>首先我们会持续收录素食品牌和产品、素食餐厅、素食食谱等信息资源，提供给大家查询（如果需要 API 服务，也可以私信我）。另外，我们发布 HowToCookVegan 开源项目是一种尝试，希望通过开源协作的方式和大家一起共创。</p>
-<p>未来，如果有需求我们会考虑做一套餐厅订餐/点餐系统、农场管理系统，用开源 + SaaS 服务的方式给大家使用。我有花一些时间调研餐厅、农场管理系统，其实已经有很多人在做，也有很多项目已经死了。所以这些工作我们暂时还在规划中，需要多了解行业痛点，接收更多的抱怨声音，才知道应该做什么、怎么做。</p>
+<p>首先我们会持续收录素食品牌和产品、素食餐厅、素食食谱等信息资源，提供给大家查询（如果需要 API 服务，也可以私信我）。另外，我们发布的 HowToCookVegan 开源项目也是一种尝试，希望通过开源协作的方式和大家一起共创。</p>
+<p>未来，如果有需求我们会考虑做一套餐厅订餐/点餐系统、农场管理系统，用开源 + SaaS 服务的方式给大家使用。我之前就有花一些时间调研餐厅、农场管理系统，发现其实已经有很多人在做，而且很多项目也已经死了。所以这些工作我们暂时还在规划中，需要多了解行业痛点，接收更多的抱怨声音，才知道应该做什么、怎么做。</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="合伙人">合伙人<a href="https://luhuadong.com/blog/vegapp-release-announcement#%E5%90%88%E4%BC%99%E4%BA%BA" class="hash-link" aria-label="合伙人的直接链接" title="合伙人的直接链接">​</a></h3>
-<p>我自己是从 2017 年开始尝试吃素的，从弹性素、锅边素开始，到后来蛋奶素、纯素、纯净素，体验了一遍，现在又回到了蛋奶素的状态。也是在这个过程中，我对素食行业有了更多了解，甚至打击邪教去了。打击邪教那段时间，我甚至极其厌恶“素食者”这个标签。后来有一次，我想通了！如果我真的喜欢素食这种生活方式，那我应该勇敢一点，直接用参与商业竞争，把坏人赶走，告诉大家其实素食是这样的。于是就有了“找素食App”这个项目！</p>
-<p>这两个月也有一些人联系我，想了解这个项目，甚至想加入，所以我也在认真思考合伙人的问题。创业这条路真的太艰难、太孤独了，尤其对于“找素食 App”这个项目，我一个人忙不过，写代码的时候就没办法开拓市场。但是合适的合伙人可遇不可求，请神容易送神难，所以我的态度是宁缺毋滥。反正最坏的打算就是用我自己的钱，慢慢熬出来，目前我们公司的成本控制得不错，活个两三年问题不大。</p>
-<p>所以如果你真的想加入，我希望你可以想清楚，准备好了和我一起战斗，不要辜负这份事业，不要辜负“联合创始人”的称号。</p>
-<p>以上，祝大家新年快乐！我们 2026 年见~ 👋</p>]]></content>
+<p>我自己是从 2017 年开始尝试吃素的，从弹性素、锅边素开始，到后来蛋奶素、纯素、纯净素，体验了一遍，现在又回到了蛋奶素的状态。也是在这个过程中，我对素食行业有了更多了解，甚至打击邪教去了。打击邪教那段时间，我甚至极其厌恶“素食者”这个标签。后来有一次，我想通了！如果我真的喜欢素食这种生活方式，那我应该勇敢一点，直接参与商业竞争，把坏人赶走，告诉大家其实素食是这样的。于是就有了“找素食App”这个项目！</p>
+<p>这两个月断断续续有一些人联系我，想了解这个项目，甚至想加入，所以我也在认真思考合伙人的问题。创业这条路真的太艰难、太孤独了，尤其对于“找素食 App”这个项目，我一个人忙不过，写代码的时候就没办法开拓市场。但是合适的合伙人可遇不可求，请神容易送神难，所以我的态度是宁缺毋滥。反正最坏的打算就是用我自己的钱，慢慢熬出来，目前我们公司的成本控制得不错，活个两三年问题不大。</p>
+<p>所以如果你真的想加入，我希望你可以想清楚，准备好了和我一起战斗，不怕苦、不怕累、不怕邪恶势力，不要辜负这份事业，也不要辜负“联合创始人”的称号。</p>
+<p>以上，祝大家新年快乐！我们 2026 年见~ 👋</p>
+<hr>
+<p>哦，对了！欢迎关注我们公司和项目的微信公众号，后面公司和项目相关的内容会在上面发布。</p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/public-huggypig-qrcode-836abff160df089c022ff9a84fd6152b.jpg#center-300" width="671" height="671" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/public-vegapp-qrcode-55d31e32735be9537d6872a5975b7532.jpg#center-300" width="676" height="676" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>
+<p>有任何问题，欢迎加入群聊，或者添加我的个人微信，谢谢！</p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/vegan-app-group-qrcode-3a976c3a08f5f87aa770839f97b33f06.jpg#center-400" width="1031" height="1449" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>]]></content>
         <author>
             <name>阿基米东</name>
             <uri>https://github.com/luhuadong</uri>
@@ -234,7 +240,7 @@
 <p>简单来讲，我正在做的就是一个 <strong>素食营养知识库 + 素食资源搜索 + 纯素电商平台 + 轻社交</strong> 的平台，支持网页、App 和微信小程序。有人可能会问，已经有类似的东西了，为什么我还要做？凭什么我这个项目就有价值？—— 对我来讲，其实很简单，就是我希望我可以做一些商业决策，可以为行业树立正确的价值观。通过技术、商业逻辑，用效率最大化的方式，解决一些社会问题。</p>
 <p>我知道这个过程很难，所以我在心态上把它当作一个公益项目去对待，但同时也会积极推进商业化。</p>
 <p>这段时间，发生了很多事情，创业的压力、感情的不稳定、对抗邪教的精神折磨...... 这是我人生中非常艰难的一个时期。所以如果你喜欢这个项目，觉得这个项目有价值，欢迎你加入我的微信群。无论是单纯地想鼓励我（精神股东），还是给这个素食 App 出谋划策（产品经理），都非常欢迎！</p>
-<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/vegan-app-group-qrcode-5601855a2147adccad57d4d807b53254.png#center-400" width="1031" height="1449" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/vegan-app-group-qrcode-3a976c3a08f5f87aa770839f97b33f06.jpg#center-400" width="1031" height="1449" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>
 <p>【PS】项目近期推进很慢，因为我要调整状态，还要处理搬家、股权转让、商标注册、ICP备案...... 等一堆琐事，希望大家多担待，时不时推我一下！谢谢了！🙏</p>]]></content>
         <author>
             <name>阿基米东</name>
