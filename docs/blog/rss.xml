@@ -4,10 +4,122 @@
         <title>阿基米东 Freedom Blog Blog</title>
         <link>https://luhuadong.com/blog</link>
         <description>阿基米东 Freedom Blog Blog</description>
-        <lastBuildDate>Tue, 30 Dec 2025 16:16:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Jan 2026 23:50:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[从嵌入式到前端的探索之旅，分享 5 个 Web 小工具]]></title>
+            <link>https://luhuadong.com/blog/my-five-simple-web-tools</link>
+            <guid>https://luhuadong.com/blog/my-five-simple-web-tools</guid>
+            <pubDate>Mon, 05 Jan 2026 23:50:00 GMT</pubDate>
+            <description><![CDATA[我是一名嵌入式开发工程师，在软硬件开发领域摸爬滚打多年。从单片机到 ARM，从裸机编程到 Linux，从硬件调试到驱动开发，从 RTOS 到图形界面，我在嵌入式世界里积累了不少经验。]]></description>
+            <content:encoded><![CDATA[<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/my-five-simple-web-tools-6ba73219b382917b1dbd354ccfc796b3.webp" width="900" height="383" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>
+<p>我是一名<strong>嵌入式开发工程师</strong>，在软硬件开发领域摸爬滚打多年。从单片机到 ARM，从裸机编程到 Linux，从硬件调试到驱动开发，从 RTOS 到图形界面，我在嵌入式世界里积累了不少经验。</p>
+<p>但当我想要开发互联网产品时，我发现了一个全新的世界 —— <strong>Web 开发</strong>。那些在嵌入式领域习以为常的概念，在 Web 开发中变得陌生：DOM 操作、事件处理、CSS 布局、异步编程…… 一切都让我感到既兴奋又困惑。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="学习之路">学习之路<a href="https://luhuadong.com/blog/my-five-simple-web-tools#%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF" class="hash-link" aria-label="学习之路的直接链接" title="学习之路的直接链接">​</a></h2>
+<p>于是，大概五年前，我决定从零开始学习 Web 前端开发。这不是一次简单的技术栈切换，而是一次思维方式的转变：</p>
+<ul>
+<li><strong>从 C 语言到 JavaScript</strong>：从静态类型到动态类型，从编译时到运行时；</li>
+<li><strong>从硬件抽象到 DOM 操作</strong>：从寄存器操作到浏览器 API；</li>
+<li><strong>从线程管理到异步编程</strong>：从轮询到事件驱动；</li>
+<li><strong>从固定布局到响应式设计</strong>：从像素级精确到弹性布局。</li>
+</ul>
+<p>在这个过程中，我通过 Head First 系列书籍来学习。在完成了示例项目后，我发现还是意犹未尽，想着与其只看教程，不如动手做点有用的东西。于是，我根据自己的需求开发了几个 Web 在线小工具，每完成一个都有一种神奇的成就感。</p>
+<p>最近，我重新整理了 5 个小工具的代码到 GitHub，并且通过 GitHub Pages 的方式提供在线访问，欢迎你来使用或改进~</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="项目介绍">项目介绍<a href="https://luhuadong.com/blog/my-five-simple-web-tools#%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D" class="hash-link" aria-label="项目介绍的直接链接" title="项目介绍的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-水印工具watermarking">① 水印工具（Watermarking）<a href="https://luhuadong.com/blog/my-five-simple-web-tools#-%E6%B0%B4%E5%8D%B0%E5%B7%A5%E5%85%B7watermarking" class="hash-link" aria-label="① 水印工具（Watermarking）的直接链接" title="① 水印工具（Watermarking）的直接链接">​</a></h3>
+<p>我们平常租房子、办业务，需要提交身份证照片，为了避免身份证照片被滥用，通常需要打个水印。但是市面上的工具，往往需要下载 App，还要将照片上传到别人的服务器，既繁琐又不安全。因此我做了一个简单的 Web 工具，基于浏览器本地 API，实现为图片添加文字水印，并支持自定义水印颜色、大小、角度、间距、透明度。</p>
+<p>特别说明：虽然这个 Web 工具需要用网络浏览器打开，但使用过程中不需要上传图片，所有操作均在本地进行。</p>
+<p><strong>学习要点</strong>：</p>
+<ul>
+<li>Canvas API 的使用</li>
+<li>文件上传和处理</li>
+<li>图片下载功能</li>
+</ul>
+<p>GitHub 地址：<a href="https://github.com/luhuadong/watermarking" target="_blank" rel="noopener noreferrer">https://github.com/luhuadong/watermarking</a></p>
+<p>在线使用：<a href="https://luhuadong.github.io/watermarking/" target="_blank" rel="noopener noreferrer">https://luhuadong.github.io/watermarking/</a></p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img alt="图片水印打码工具（Watermarking）" src="https://luhuadong.com/assets/images/20260106-screenshot-watermarking-a4fbf84c2ce64df5fc6e61e7d4885601.webp" width="1305" height="929" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div><figcaption>图片水印打码工具（Watermarking）</figcaption></figure><p></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-颜色拾取工具color-picker">② 颜色拾取工具（Color Picker）<a href="https://luhuadong.com/blog/my-five-simple-web-tools#-%E9%A2%9C%E8%89%B2%E6%8B%BE%E5%8F%96%E5%B7%A5%E5%85%B7color-picker" class="hash-link" aria-label="② 颜色拾取工具（Color Picker）的直接链接" title="② 颜色拾取工具（Color Picker）的直接链接">​</a></h3>
+<p>做前端开发的朋友都知道，页面配色是一项很重要、很讲究品味的工作。我们常常需要参考别人的设计，从屏幕上提取一些颜色值。因此，我想做一个可以从屏幕任意位置拾取颜色值的工具，并且支持 RGB、HEX、HSL 格式，带放大镜效果。</p>
+<p>不过呢，由于浏览器安全限制，这个网页版的 Color Picker 拾取颜色时无法跳出页面，因此我们尝试做了一个屏幕到页面的映射，但是效果不太好。因此，后面我又开发了一个浏览器插件 <strong><a href="https://chromewebstore.google.com/detail/getcolor/jghilpegcipagjebngofhnncgjepdnmf" target="_blank" rel="noopener noreferrer">GetColor</a></strong>，这样就可以跳出浏览器页面，真正做到提取屏幕任意位置的颜色啦！</p>
+<p><strong>学习要点</strong>：</p>
+<ul>
+<li>Screen Capture API（<code>getDisplayMedia</code>）</li>
+<li>Canvas 像素操作</li>
+<li>坐标转换和计算</li>
+<li>触摸事件处理</li>
+</ul>
+<p>GitHub 地址：<a href="https://github.com/luhuadong/color-picker" target="_blank" rel="noopener noreferrer">https://github.com/luhuadong/color-picker</a></p>
+<p>在线使用：<a href="https://luhuadong.github.io/color-picker/" target="_blank" rel="noopener noreferrer">https://luhuadong.github.io/color-picker/</a></p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img alt="颜色拾取工具（Color Picker）" src="https://luhuadong.com/assets/images/20260106-screenshot-color-picker-04383b22d01d2ae3e78f723d593ec05f.webp" width="1034" height="754" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div><figcaption>颜色拾取工具（Color Picker）</figcaption></figure><p></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-图片对比工具image-compare">③ 图片对比工具（Image Compare）<a href="https://luhuadong.com/blog/my-five-simple-web-tools#-%E5%9B%BE%E7%89%87%E5%AF%B9%E6%AF%94%E5%B7%A5%E5%85%B7image-compare" class="hash-link" aria-label="③ 图片对比工具（Image Compare）的直接链接" title="③ 图片对比工具（Image Compare）的直接链接">​</a></h3>
+<p>在工作和生活中，有时候我们需要同时对比几张图片同一位置的细微区别，挑选出最好的一张图片。因此我做了一个网页工具，可以同时对比 2-4 张图片，支持同步缩放、平移、移动操作。同时也支持触摸事件，因此在手机、平板等移动端也可以使用哦！</p>
+<p><strong>学习要点</strong>：</p>
+<ul>
+<li>多图片同步操作</li>
+<li>触摸手势识别（捏合缩放、拖拽）</li>
+<li>响应式布局设计</li>
+<li>事件委托和状态管理</li>
+</ul>
+<p>GitHub 地址：<a href="https://github.com/luhuadong/image-compare" target="_blank" rel="noopener noreferrer">https://github.com/luhuadong/image-compare</a></p>
+<p>在线使用：<a href="https://luhuadong.github.io/image-compare/" target="_blank" rel="noopener noreferrer">https://luhuadong.github.io/image-compare/</a></p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img alt="图片对比工具（Image Compare）" src="https://luhuadong.com/assets/images/20260106-screenshot-image-compare-7f5e56cc277b63578f5f4c1aff764089.webp" width="1510" height="1080" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div><figcaption>图片对比工具（Image Compare）</figcaption></figure><p></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-时间工具timestamp">④ 时间工具（Timestamp）<a href="https://luhuadong.com/blog/my-five-simple-web-tools#-%E6%97%B6%E9%97%B4%E5%B7%A5%E5%85%B7timestamp" class="hash-link" aria-label="④ 时间工具（Timestamp）的直接链接" title="④ 时间工具（Timestamp）的直接链接">​</a></h3>
+<p>对于普通人来讲，时间戳的概念有点陌生。不过，对于软件工程师来说，时间戳是一个经常接触的东西，例如在工作中我们经常需要观察、分析带时间戳的日志信息。因此，我做了一个小工具，支持时间戳转换、多时区显示、倒计时、年度进度等时间相关功能。界面设计使用 Kindle 电纸书风格，看起来干净清爽，就像时间这位老朋友一样，历久弥新。</p>
+<p><strong>学习要点</strong>：</p>
+<ul>
+<li>Luxon 日期时间库的使用</li>
+<li>时区处理</li>
+<li>复杂的状态管理</li>
+<li>动态 UI 更新</li>
+</ul>
+<p>GitHub 地址：<a href="https://github.com/luhuadong/timestamp" target="_blank" rel="noopener noreferrer">https://github.com/luhuadong/timestamp</a></p>
+<p>在线使用：<a href="https://luhuadong.github.io/timestamp/" target="_blank" rel="noopener noreferrer">https://luhuadong.github.io/timestamp/</a></p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img alt="时间工具（Timestamp）" src="https://luhuadong.com/assets/images/20260106-screenshot-timestamp-308e9372ce943e2064fde888cf0da109.webp" width="1500" height="1024" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div><figcaption>时间工具（Timestamp）</figcaption></figure><p></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-计算器calculator">⑤ 计算器（Calculator）<a href="https://luhuadong.com/blog/my-five-simple-web-tools#-%E8%AE%A1%E7%AE%97%E5%99%A8calculator" class="hash-link" aria-label="⑤ 计算器（Calculator）的直接链接" title="⑤ 计算器（Calculator）的直接链接">​</a></h3>
+<p>现在的手机和电脑都自带一个计算器，再做一个计算器似乎有点多余，不过我还是做了一个网页版的计算器。后续可能会增加一些功能，让它成为一个超级计算器。所以它目前还是一个学习项目，拥有 iPhone 计算器的设计风格，支持基本运算、历史记录、表达式显示等基本功能。欢迎你和我一起完善它~</p>
+<p><strong>学习要点</strong>：</p>
+<ul>
+<li>状态机设计</li>
+<li>用户交互逻辑</li>
+<li>CSS 动画和过渡效果</li>
+<li>历史记录管理</li>
+</ul>
+<p>GitHub 地址：<a href="https://github.com/luhuadong/calculator" target="_blank" rel="noopener noreferrer">https://github.com/luhuadong/calculator</a></p>
+<p>在线使用：<a href="https://luhuadong.github.io/calculator/" target="_blank" rel="noopener noreferrer">https://luhuadong.github.io/calculator/</a></p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img alt="计算器（Calculator）" src="https://luhuadong.com/assets/images/20260106-screenshot-calculator-bdad21342ba9e2713928fb558f8c2fe3.webp" width="1248" height="897" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div><figcaption>计算器（Calculator）</figcaption></figure><p></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="技术栈">技术栈<a href="https://luhuadong.com/blog/my-five-simple-web-tools#%E6%8A%80%E6%9C%AF%E6%A0%88" class="hash-link" aria-label="技术栈的直接链接" title="技术栈的直接链接">​</a></h2>
+<p>上述五个工具都采用纯前端技术实现：</p>
+<ul>
+<li><strong>HTML5</strong>：语义化标签，结构清晰</li>
+<li><strong>CSS3</strong>：现代布局（Flexbox、Grid）、动画效果</li>
+<li><strong>JavaScript (ES6+)</strong>：原生 JS，无框架依赖</li>
+<li><strong>响应式设计</strong>：适配桌面和移动设备</li>
+</ul>
+<p>由于没有任何框架依赖，因此你在本地直接打开 HTML 也可以使用。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="设计理念">设计理念<a href="https://luhuadong.com/blog/my-five-simple-web-tools#%E8%AE%BE%E8%AE%A1%E7%90%86%E5%BF%B5" class="hash-link" aria-label="设计理念的直接链接" title="设计理念的直接链接">​</a></h2>
+<p>每个工具都遵循<strong>简洁实用</strong>的原则：</p>
+<ul>
+<li><strong>Kindle 风格</strong>：部分工具采用类似 Kindle 电纸书的设计风格，平面化、高对比、黑白灰</li>
+<li><strong>暗黑模式</strong>：部分工具支持暗黑主题，保护眼睛</li>
+<li><strong>无依赖</strong>：纯原生实现，无需安装任何依赖</li>
+<li><strong>即开即用</strong>：打开 HTML 文件即可使用</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="开源协议">开源协议<a href="https://luhuadong.com/blog/my-five-simple-web-tools#%E5%BC%80%E6%BA%90%E5%8D%8F%E8%AE%AE" class="hash-link" aria-label="开源协议的直接链接" title="开源协议的直接链接">​</a></h2>
+<p>所有项目均采用 <strong>MIT License</strong>，你可以自由使用、修改、分发。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="学习心得">学习心得<a href="https://luhuadong.com/blog/my-five-simple-web-tools#%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97" class="hash-link" aria-label="学习心得的直接链接" title="学习心得的直接链接">​</a></h2>
+<p>从嵌入式到 Web 开发，我最大的感受是：</p>
+<ol>
+<li><strong>思维方式不同</strong>：嵌入式更注重资源控制和实时性，Web 开发更注重用户体验和交互；</li>
+<li><strong>调试方式不同</strong>：从示波器到浏览器开发者工具；</li>
+<li><strong>部署方式不同</strong>：从烧录固件到部署到服务器；</li>
+<li><strong>但核心逻辑相通</strong>：无论是哪种开发，都需要清晰的逻辑思维和问题解决能力。</li>
+</ol>
+<p>最后，感谢所有在我学习路上给予帮助的教程、文档和开源项目。这些工具虽然简单，但每一个都凝聚了我的学习和思考。如果你也是从其他领域转向学习前端开发，或者对这些工具有任何建议，欢迎交流！</p>]]></content:encoded>
+            <category>不定时日记</category>
+            <category>OpenSource</category>
+        </item>
         <item>
             <title><![CDATA[找素食 App 发布预告，聊聊项目进展和我的思考]]></title>
             <link>https://luhuadong.com/blog/vegapp-release-announcement</link>
@@ -1087,17 +1199,6 @@
             <content:encoded><![CDATA[<p>自从 2016 年萌生写书的想法后，就一发不可收拾......</p>
 <table><thead><tr><th>代号</th><th>书名</th><th>优先级</th><th>备注</th></tr></thead><tbody><tr><td><a href="https://gitee.com/luhuadong/FCTC-Air" target="_blank" rel="noopener noreferrer">FCTC</a></td><td>从端到云构建物联网原型（基于 RT-Thread）</td><td>⭐<!-- --> <!-- -->⭐<!-- --> <!-- -->⭐<!-- --> <!-- -->⭐<!-- --> <!-- -->⭐</td><td>即将出版</td></tr><tr><td><a href="https://gitee.com/luhuadong/YRPI" target="_blank" rel="noopener noreferrer">YRPI</a></td><td>基于树莓派的 Yocto 学习指南（reTerminal 树莓派 CM4）</td><td>⭐<!-- --> <!-- -->⭐<!-- --> <!-- -->⭐</td><td>进行中</td></tr><tr><td><a href="https://gitee.com/luhuadong/Master-C" target="_blank" rel="noopener noreferrer">Master-C</a></td><td>C语言大师之路（深入掌握 C 语言编程）</td><td>⭐<!-- --> <!-- -->⭐<!-- --> <!-- -->⭐</td><td>进行中</td></tr><tr><td><a href="https://gitee.com/luhuadong/python-efficient-office" target="_blank" rel="noopener noreferrer">PyEO</a></td><td>Python 高效办公（Python 办公自动化）</td><td>⭐<!-- --> <!-- -->⭐</td><td>进行中</td></tr><tr><td>OEEB</td><td>openEuler Embedded 系统构建与应用实战（ROS 机器人）</td><td>⭐</td><td>准备中</td></tr><tr><td>Zephyr-Book</td><td>Zephyr 嵌入式实时操作系统</td><td>⭐</td><td>准备中</td></tr><tr><td>OpenEmber</td><td>OpenEmber 嵌入式应用框架开发详解</td><td>⭐</td><td>准备中</td></tr><tr><td>SmartEV</td><td>图解智能电动汽车</td><td>⭐</td><td>准备中</td></tr><tr><td><a href="https://gitee.com/luhuadong/ReChat" target="_blank" rel="noopener noreferrer">ReChat</a></td><td>React + Node.js 全栈开发最佳实践</td><td>⭐</td><td>未开始</td></tr><tr><td><a href="https://gitee.com/luhuadong/LCBP" target="_blank" rel="noopener noreferrer">LCBP</a></td><td>Linux C 学习笔记 / Linux C 最佳实践</td><td>⭐<!-- --> <!-- -->⭐</td><td>未开始</td></tr><tr><td><a href="https://gitee.com/luhuadong/WPTD" target="_blank" rel="noopener noreferrer">WPTD</a></td><td>WordPress 主题开发指南</td><td>⭐</td><td>未开始</td></tr><tr><td><a href="https://gitee.com/luhuadong/7W7OS" target="_blank" rel="noopener noreferrer">7W7OS</a></td><td>七周七操作系统</td><td>⭐</td><td>未开始</td></tr><tr><td>CMBP</td><td>CMake 最佳实践</td><td>⭐</td><td>未开始</td></tr><tr><td><a href="https://gitee.com/luhuadong/LACP" target="_blank" rel="noopener noreferrer">LACP</a></td><td>Linux 高级组件编程</td><td>⭐</td><td>进行中</td></tr><tr><td><a href="https://gitee.com/luhuadong/QTBP" target="_blank" rel="noopener noreferrer">QTBP</a></td><td>Qt 跨平台开发最佳实践</td><td>⭐<!-- --> <!-- -->⭐</td><td>未开始</td></tr><tr><td><a href="https://gitee.com/luhuadong/PyFS" target="_blank" rel="noopener noreferrer">PyFS</a></td><td>Python 全栈开发</td><td>⭐</td><td>进行中</td></tr><tr><td><a href="https://github.com/luhuadong/Eco-Handbook" target="_blank" rel="noopener noreferrer">Eco-Handbook</a></td><td>可持续生活手册</td><td>⭐<!-- --> <!-- -->⭐<!-- --> <!-- -->⭐<!-- --> <!-- -->⭐</td><td>进行中</td></tr><tr><td><a href="https://gitee.com/luhuadong/BYKB" target="_blank" rel="noopener noreferrer">BYKB</a></td><td>构建你的知识库（Build your knowledge base）</td><td>⭐</td><td>未开始</td></tr></tbody></table>]]></content:encoded>
             <category>计划</category>
-        </item>
-        <item>
-            <title><![CDATA[柴火创客·自我介绍]]></title>
-            <link>https://luhuadong.com/blog/a-maker</link>
-            <guid>https://luhuadong.com/blog/a-maker</guid>
-            <pubDate>Thu, 30 Jun 2022 01:09:11 GMT</pubDate>
-            <description><![CDATA[会员编号：CHSZ2022061387]]></description>
-            <content:encoded><![CDATA[<p>会员编号：CHSZ2022061387</p>
-<p>自我介绍：2014年毕业于广东工业大学电气工程及其自动化专业，在校期间曾任广工猎鹰橄榄球队队长。毕业后先后参与过工业机器人、通信终端、物联网等相关产品的研发工作，目前在广州从事汽车智能驾驶方面的研究。热爱开源文化，曾参与编写《<a href="https://oschina.gitee.io/opensource-guide/" target="_blank" rel="noopener noreferrer">开源指北</a>》电子书，熟悉 Arduino、树莓派等各类开源硬件，曾为 Linux、RT-Thread、LVGL 等多个开源软件项目贡献代码，并荣获 2020 年度 RT-Thread 开源社区杰出贡献奖。CSDN 博主「<a href="https://blog.csdn.net/lu_embedded" target="_blank" rel="noopener noreferrer">阿基米东</a>」，总阅读量超过 300 万，同时也是「<a href="https://getiot.tech/" target="_blank" rel="noopener noreferrer">人人都懂物联网</a>」网站站长，旨在促进公平教育和终身学习。生活中是一名环保主义者，也是零废弃联盟等多家 NGO 机构的核心志愿者，致力于推动 SDGs 可持续发展目标的实现。</p>
-<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/lu_202205-6f4fb160ee647a9c5261a4d58680c96d.jpeg#center-200" width="1107" height="1477" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>]]></content:encoded>
-            <category>创客</category>
         </item>
     </channel>
 </rss>
