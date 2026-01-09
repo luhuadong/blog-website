@@ -2,13 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luhuadong.com/blog</id>
     <title>阿基米东 Freedom Blog Blog</title>
-    <updated>2026-01-05T23:50:00.000Z</updated>
+    <updated>2026-01-09T00:37:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luhuadong.com/blog"/>
     <subtitle>阿基米东 Freedom Blog Blog</subtitle>
     <icon>https://luhuadong.com/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[从嵌入式到前端的探索之旅，分享 5 个 Web 小工具]]></title>
+        <title type="html"><![CDATA[第一次申请奇绩创坛，意料之中没通过]]></title>
+        <id>https://luhuadong.com/blog/the-first-miracleplus-applications</id>
+        <link href="https://luhuadong.com/blog/the-first-miracleplus-applications"/>
+        <updated>2026-01-09T00:37:00.000Z</updated>
+        <summary type="html"><![CDATA[上个月，我拿「找素食 App」项目提交了奇绩创坛 2026 春季创业营的申请。奇绩创坛是一个创业孵化器，前身是 YC 中国，由陆奇创立，专注早期科技项目投资。YC 全称是 Y Combinator，科技圈的朋友应该不陌生，它是保罗·格雷厄姆（《黑客与画家》的作者）在美国成立的创业孵化器，孵化出了 Airbnb、Dropbox、Stripe 等众多知名独角兽公司，被誉为“创业者的摇篮”。]]></summary>
+        <content type="html"><![CDATA[<p>上个月，我拿「找素食 App」项目提交了奇绩创坛 2026 春季创业营的申请。奇绩创坛是一个创业孵化器，前身是 YC 中国，由陆奇创立，专注早期科技项目投资。YC 全称是 Y Combinator，科技圈的朋友应该不陌生，它是保罗·格雷厄姆（《黑客与画家》的作者）在美国成立的创业孵化器，孵化出了 Airbnb、Dropbox、Stripe 等众多知名独角兽公司，被誉为“创业者的摇篮”。</p>
+<p>因为我想保持这个项目的中立、开放，同时希望借助平台的力量推进，所以就尝试提交了申请。申请流程挺简单的，不用准备商业计划书，只需回答 30 个问题，录一个一分钟的短视频即可。但是因为第一次申请，我总共花了两天时间填写申请资料，其实也挺累的，尤其是需要回答一些比较“尖锐”的问题。</p>
+<p>提交之前其实挺忐忑的，因为这次估计有 8000 多个项目，最终只有 50-60 个入选，而且大部分是 AI 相关的项目，通过率连 1% 都不到。不过提交完之后心情反而变得很轻松，觉得无所谓啦，可以借此机会梳理这个项目，可以和专业投资机构交流交流，也挺好的。</p>
+<p>昨天在群里看到有的创业者收到通知，所以我也查了一下，嗯哈！意料之中没通过。</p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/%E5%A5%87%E7%BB%A9%E5%88%9B%E5%9D%9B2026%E6%98%A5%E5%AD%A3%E8%90%A5-01-47cbf41be975bbd823054f3bc4930b09.jpg" width="821" height="782" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>
+<p>下面是奇绩创坛对「找素食 App」项目的反馈：</p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/%E5%A5%87%E7%BB%A9%E5%88%9B%E5%9D%9B2026%E6%98%A5%E5%AD%A3%E8%90%A5-02-1a5f265b10cea58c363c24b440ab526e.jpg" width="1455" height="948" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>
+<p>结合最近的项目进展，以及与同行的交流、思考，发现很多东西急不来，所以我决定换一种心态来开发和运营这个项目。例如未来一段时间会把它当作公益项目去对待，先将重点放在工具属性，做好内容，然后才是社交属性。同时，接下来我会将一部分精力重新放到开源、AI、机器人领域，启动其他项目，毕竟素食只是生活的一部分，我的人生还有很多想做的事。所以慢慢来吧，期待三五年之后，「找素食 App」能够在国内复杂的素食环境下成长起来，能够真正解决碎片化、同质化、价格高等问题，推动素食行业的正向发展。</p>
+<p>如果你对「找素食 App」这个项目有任何想法或建议，欢迎进群交流，或私信我。</p>
+<p></p><figure><div aria-owns="rmiz-modal-" data-rmiz=""><div data-rmiz-content="not-found" style="visibility:visible"><div style="position:relative;display:inline-block;transform:scale(1);transform-origin:center center;transition:transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);pointer-events:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none"><img src="https://luhuadong.com/assets/images/vegan-app-group-qrcode-ddc5afa1dde003ebf25ec1e1feb24fb4.jpg#center-400" width="1031" height="1031" style="display:block;width:100%;height:auto;touch-action:pan-x pan-y pinch-zoom;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent"></div></div></div></figure><p></p>]]></content>
+        <author>
+            <name>阿基米东</name>
+            <uri>https://github.com/luhuadong</uri>
+        </author>
+        <category label="不定时日记" term="不定时日记"/>
+        <category label="创业" term="创业"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从嵌入式到前端的探索之旅，分享 5 个开源 Web 小工具]]></title>
         <id>https://luhuadong.com/blog/my-five-simple-web-tools</id>
         <link href="https://luhuadong.com/blog/my-five-simple-web-tools"/>
         <updated>2026-01-05T23:50:00.000Z</updated>
@@ -1264,19 +1287,5 @@
         </author>
         <category label="总结" term="总结"/>
         <category label="年终总结" term="年终总结"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我的写作计划 ✍]]></title>
-        <id>https://luhuadong.com/blog/book-writing-plan</id>
-        <link href="https://luhuadong.com/blog/book-writing-plan"/>
-        <updated>2022-10-09T16:41:35.000Z</updated>
-        <summary type="html"><![CDATA[自从 2016 年萌生写书的想法后，就一发不可收拾......]]></summary>
-        <content type="html"><![CDATA[<p>自从 2016 年萌生写书的想法后，就一发不可收拾......</p>
-<table><thead><tr><th>代号</th><th>书名</th><th>优先级</th><th>备注</th></tr></thead><tbody><tr><td><a href="https://gitee.com/luhuadong/FCTC-Air" target="_blank" rel="noopener noreferrer">FCTC</a></td><td>从端到云构建物联网原型（基于 RT-Thread）</td><td>⭐<!-- --> <!-- -->⭐<!-- --> <!-- -->⭐<!-- --> <!-- -->⭐<!-- --> <!-- -->⭐</td><td>即将出版</td></tr><tr><td><a href="https://gitee.com/luhuadong/YRPI" target="_blank" rel="noopener noreferrer">YRPI</a></td><td>基于树莓派的 Yocto 学习指南（reTerminal 树莓派 CM4）</td><td>⭐<!-- --> <!-- -->⭐<!-- --> <!-- -->⭐</td><td>进行中</td></tr><tr><td><a href="https://gitee.com/luhuadong/Master-C" target="_blank" rel="noopener noreferrer">Master-C</a></td><td>C语言大师之路（深入掌握 C 语言编程）</td><td>⭐<!-- --> <!-- -->⭐<!-- --> <!-- -->⭐</td><td>进行中</td></tr><tr><td><a href="https://gitee.com/luhuadong/python-efficient-office" target="_blank" rel="noopener noreferrer">PyEO</a></td><td>Python 高效办公（Python 办公自动化）</td><td>⭐<!-- --> <!-- -->⭐</td><td>进行中</td></tr><tr><td>OEEB</td><td>openEuler Embedded 系统构建与应用实战（ROS 机器人）</td><td>⭐</td><td>准备中</td></tr><tr><td>Zephyr-Book</td><td>Zephyr 嵌入式实时操作系统</td><td>⭐</td><td>准备中</td></tr><tr><td>OpenEmber</td><td>OpenEmber 嵌入式应用框架开发详解</td><td>⭐</td><td>准备中</td></tr><tr><td>SmartEV</td><td>图解智能电动汽车</td><td>⭐</td><td>准备中</td></tr><tr><td><a href="https://gitee.com/luhuadong/ReChat" target="_blank" rel="noopener noreferrer">ReChat</a></td><td>React + Node.js 全栈开发最佳实践</td><td>⭐</td><td>未开始</td></tr><tr><td><a href="https://gitee.com/luhuadong/LCBP" target="_blank" rel="noopener noreferrer">LCBP</a></td><td>Linux C 学习笔记 / Linux C 最佳实践</td><td>⭐<!-- --> <!-- -->⭐</td><td>未开始</td></tr><tr><td><a href="https://gitee.com/luhuadong/WPTD" target="_blank" rel="noopener noreferrer">WPTD</a></td><td>WordPress 主题开发指南</td><td>⭐</td><td>未开始</td></tr><tr><td><a href="https://gitee.com/luhuadong/7W7OS" target="_blank" rel="noopener noreferrer">7W7OS</a></td><td>七周七操作系统</td><td>⭐</td><td>未开始</td></tr><tr><td>CMBP</td><td>CMake 最佳实践</td><td>⭐</td><td>未开始</td></tr><tr><td><a href="https://gitee.com/luhuadong/LACP" target="_blank" rel="noopener noreferrer">LACP</a></td><td>Linux 高级组件编程</td><td>⭐</td><td>进行中</td></tr><tr><td><a href="https://gitee.com/luhuadong/QTBP" target="_blank" rel="noopener noreferrer">QTBP</a></td><td>Qt 跨平台开发最佳实践</td><td>⭐<!-- --> <!-- -->⭐</td><td>未开始</td></tr><tr><td><a href="https://gitee.com/luhuadong/PyFS" target="_blank" rel="noopener noreferrer">PyFS</a></td><td>Python 全栈开发</td><td>⭐</td><td>进行中</td></tr><tr><td><a href="https://github.com/luhuadong/Eco-Handbook" target="_blank" rel="noopener noreferrer">Eco-Handbook</a></td><td>可持续生活手册</td><td>⭐<!-- --> <!-- -->⭐<!-- --> <!-- -->⭐<!-- --> <!-- -->⭐</td><td>进行中</td></tr><tr><td><a href="https://gitee.com/luhuadong/BYKB" target="_blank" rel="noopener noreferrer">BYKB</a></td><td>构建你的知识库（Build your knowledge base）</td><td>⭐</td><td>未开始</td></tr></tbody></table>]]></content>
-        <author>
-            <name>阿基米东</name>
-            <uri>https://github.com/luhuadong</uri>
-        </author>
-        <category label="计划" term="计划"/>
     </entry>
 </feed>
